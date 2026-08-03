@@ -139,8 +139,8 @@ text{ font-kerning:normal; }
 <text x="64" y="592" font-size="18" fill="#d8efff" font-weight="700" text-anchor="middle">5</text>
 <text x="96" y="579" font-size="19" fill="#fbbf24" font-weight="700" text-anchor="start">7/28 23:55</text>
 <text x="96" y="601" font-size="21.5" fill="#ffffff" font-weight="700" text-anchor="start">強度超出預期</text>
-<text x="96" y="622" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">爆發增強、形成針孔眼，6 小時 +13 公尺／秒</text>
-<text x="96" y="641" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">巔峰預測上修到約 85～93 公尺／秒</text>
+<text x="96" y="622" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">爆發增強、針孔眼，6 小時 +25 kt（13 公尺／秒）</text>
+<text x="96" y="641" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">巔峰上修到 165～180 kt（約 85～93 公尺／秒）</text>
 </g>
 <g class="tl-item" style="animation-delay:20.00s">
 <rect class="tl-hl" style="animation-delay:20.00s" x="34" y="652" width="480" height="84" rx="12" fill="#16456f" stroke="#39a8e0" stroke-width="1.5"/>
@@ -210,7 +210,7 @@ text{ font-kerning:normal; }
 <text x="96" y="1209" font-size="19" fill="#fbbf24" font-weight="700" text-anchor="start">7/31 23:41</text>
 <text x="96" y="1231" font-size="21.5" fill="#ffffff" font-weight="700" text-anchor="start">路徑續收斂、強度再分歧</text>
 <text x="96" y="1252" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">JTWC 稱全期一致性高，系集持續南修</text>
-<text x="96" y="1271" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">第三次眼牆置換，模式差距約 18 公尺／秒</text>
+<text x="96" y="1271" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">第三次換眼，模式差距約 35 kt（18 公尺／秒）</text>
 </g>
 <g class="tl-item" style="animation-delay:48.00s">
 <rect class="tl-hl" style="animation-delay:48.00s" x="34" y="1282" width="480" height="84" rx="12" fill="#16456f" stroke="#39a8e0" stroke-width="1.5"/>
@@ -259,7 +259,7 @@ text{ font-kerning:normal; }
 <text x="64" y="1672" font-size="18" fill="#d8efff" font-weight="700" text-anchor="middle">17</text>
 <text x="96" y="1659" font-size="19" fill="#fbbf24" font-weight="700" text-anchor="start">8/3 11:20</text>
 <text x="96" y="1681" font-size="21.5" fill="#ffffff" font-weight="700" text-anchor="start">減弱已實際發生</text>
-<text x="96" y="1702" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">24 小時內風速下降約 13 公尺／秒</text>
+<text x="96" y="1702" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">24 小時內下降約 25 kt（13 公尺／秒）</text>
 <text x="96" y="1721" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">後期出現再增強的少數解，JTWC 未採用</text>
 <rect x="426" y="1644" width="76" height="26" rx="13" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24"/>
 <text x="464" y="1663" font-size="16" fill="#fcd34d" font-weight="700" text-anchor="middle">最新</text>
@@ -483,22 +483,22 @@ text{ font-kerning:normal; }
 </g>
 <rect x="548" y="1586" width="824" height="164" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
 <text x="572" y="1622" font-size="25" fill="#fb923c" font-weight="700" text-anchor="start">G｜後期強度三種劇本</text>
-<text x="806" y="1622" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">最大風速（公尺／秒）</text>
-<text x="1000" y="1622" font-size="18" fill="#7d9fbf" font-weight="500" text-anchor="start">巔峰曾約 85～93</text>
+<text x="806" y="1622" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">最大風速 kt（公尺／秒）</text>
+<text x="1024" y="1622" font-size="18" fill="#7d9fbf" font-weight="500" text-anchor="start">巔峰曾約 165～180 kt</text>
 <text x="572" y="1652" font-size="18" fill="#cfe4f7" font-weight="700" text-anchor="start">JTWC 正式預報</text>
 <rect x="740" y="1636" width="420" height="20" rx="6" fill="#0e2f4f"/>
-<rect x="740" y="1636" width="184" height="20" rx="6" fill="#34d399" fill-opacity="0.85"/>
-<text x="934" y="1652" font-size="17" fill="#34d399" font-weight="700" text-anchor="start">約 44</text>
+<rect x="740" y="1636" width="178" height="20" rx="6" fill="#34d399" fill-opacity="0.85"/>
+<text x="928" y="1652" font-size="17" fill="#34d399" font-weight="700" text-anchor="start">約 85 kt（44）</text>
 <text x="1246" y="1652" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">採用</text>
 <text x="572" y="1684" font-size="18" fill="#cfe4f7" font-weight="700" text-anchor="start">HAFS-A</text>
 <rect x="740" y="1668" width="420" height="20" rx="6" fill="#0e2f4f"/>
-<rect x="740" y="1668" width="214" height="20" rx="6" fill="#fbbf24" fill-opacity="0.85"/>
-<text x="964" y="1684" font-size="17" fill="#fbbf24" font-weight="700" text-anchor="start">51 以上</text>
+<rect x="740" y="1668" width="210" height="20" rx="6" fill="#fbbf24" fill-opacity="0.85"/>
+<text x="960" y="1684" font-size="17" fill="#fbbf24" font-weight="700" text-anchor="start">100 kt 以上（51）</text>
 <text x="1246" y="1684" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">內核重組</text>
 <text x="572" y="1716" font-size="18" fill="#cfe4f7" font-weight="700" text-anchor="start">COAMPS-TC</text>
 <rect x="740" y="1700" width="420" height="20" rx="6" fill="#0e2f4f"/>
-<rect x="740" y="1700" width="281" height="20" rx="6" fill="#f472b6" fill-opacity="0.85"/>
-<text x="1031" y="1716" font-size="17" fill="#f472b6" font-weight="700" text-anchor="start">約 67</text>
+<rect x="740" y="1700" width="273" height="20" rx="6" fill="#f472b6" fill-opacity="0.85"/>
+<text x="1023" y="1716" font-size="17" fill="#f472b6" font-weight="700" text-anchor="start">約 130 kt（67）</text>
 <text x="1246" y="1716" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">降低權重</text>
 <text x="572" y="1738" font-size="17" fill="#fcd34d" font-weight="500" text-anchor="start">強度預報信心：前 3 天中等、後 2 天低</text>
 <rect x="28" y="1766" width="1344" height="260" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
@@ -517,9 +517,9 @@ text{ font-kerning:normal; }
 <text x="736" y="1850" font-size="22" fill="#fb923c" font-weight="700" text-anchor="start">強度：內核結構正在惡化</text>
 <text x="736" y="1882" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・SSMIS 確認第四次換眼開始，外側環狀結構完全包圍內眼牆</text>
 <text x="736" y="1906" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・風眼被雲填塞、雲頂變暖，顯示內核惡化</text>
-<text x="736" y="1930" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・過去 24 小時最大風速下降約 13 公尺／秒</text>
-<text x="736" y="1954" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・JTWC 下修至約 51 公尺／秒，預測續弱到約 44 公尺／秒</text>
-<text x="736" y="1978" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・未來 12～36 小時有約 8～10 公尺／秒北風風切，可能延長換眼</text>
+<text x="736" y="1930" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・過去 24 小時最大風速下降約 25 kt（13 公尺／秒）</text>
+<text x="736" y="1954" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・JTWC 下修至 100 kt（51 公尺／秒），預測續弱到 85 kt（44）</text>
+<text x="736" y="1978" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・未來 12～36 小時有 15～20 kt（8～10 公尺／秒）北風風切</text>
 <rect x="52" y="1976" width="1296" height="34" rx="10" fill="#7f1d1d" fill-opacity="0.32" stroke="#f87171" stroke-width="1.4"/>
 <text x="700.0" y="1999" font-size="19" fill="#fecaca" font-weight="700" text-anchor="middle">※ 中心雖預測從沖繩以北通過，但眼區與風場非常龐大，整個琉球群島仍可能受影響。</text>
 <rect x="28" y="2052" width="1344" height="112" rx="16" fill="url(#footg)" stroke="#3b82c4" stroke-width="1.5"/>
