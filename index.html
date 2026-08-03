@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2613 白海豚：17 篇文章看預測怎麼一路翻轉</title>
+<meta name="description" content="整理 PTT 大氣板 TY_Research 關於 2613 白海豚的 17 篇討論，看路徑與強度預測如何一路翻轉。">
+<meta property="og:title" content="2613 白海豚：17 篇文章看預測怎麼一路翻轉">
+<meta property="og:description" content="路徑幾乎鎖定沖繩以北；第四次眼牆置換造成的減弱已實際發生。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#061727; --panel:#0c2540; --line:#1c4a78; --soft:#123a5e;
+  --ink:#e6f2ff; --dim:#a9c9e8; --mute:#8fb3d4;
+  --cyan:#7dd3fc; --green:#34d399; --amber:#fbbf24; --pink:#f472b6; --orange:#fb923c;
+  --r:16px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:linear-gradient(180deg,#061727 0%,#082138 55%,#0a2a49 100%);
+  background-attachment:fixed; color:var(--ink);
+  font-family:'Noto Sans TC','Microsoft JhengHei','PingFang TC','Heiti TC',sans-serif;
+  font-size:17px; line-height:1.65;
+}
+.wrap{max-width:1180px; margin:0 auto; padding:0 16px 64px}
+.topbar{height:5px; background:var(--cyan)}
+
+header{padding:26px 0 18px}
+h1{margin:0; font-size:clamp(22px,5.2vw,34px); font-weight:700; line-height:1.25}
+h1 em{font-style:normal; color:var(--cyan)}
+.lede{margin:8px 0 0; color:var(--mute); font-size:15px}
+
+.grid{display:grid; gap:18px; grid-template-columns:1fr}
+@media (min-width:900px){ .grid.two{grid-template-columns:1fr 1fr} }
+
+section{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r);
+  padding:18px 16px; margin-top:18px;
+}
+h2{margin:0 0 4px; font-size:clamp(18px,4.2vw,22px); font-weight:700}
+h2 .tag{color:var(--cyan)}
+.sub{margin:0 0 14px; color:var(--mute); font-size:14px}
+
+/* 核心結論 */
+.keys{display:grid; gap:12px; grid-template-columns:1fr}
+@media (min-width:760px){ .keys{grid-template-columns:repeat(3,1fr)} }
+.key{background:var(--soft); border-radius:12px; padding:14px; border-left:4px solid var(--cyan)}
+.key.b{border-left-color:var(--orange)} .key.c{border-left-color:var(--green)}
+.key h3{margin:0 0 6px; font-size:16px; color:var(--cyan)}
+.key.b h3{color:var(--orange)} .key.c h3{color:var(--green)}
+.key p{margin:0; font-size:15.5px; color:var(--dim)}
+
+/* 地圖 */
+.mapsvg{width:100%; height:auto; display:block; border-radius:10px; border:1px solid #1a4066}
+.legend{display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:12px}
+.legend span{display:flex; align-items:center; gap:8px; font-size:14.5px; color:var(--dim)}
+.legend i{width:26px; height:4px; border-radius:2px; display:inline-block}
+
+/* 流程 */
+.flow{display:flex; flex-wrap:wrap; gap:8px; align-items:stretch}
+.flow .b{
+  flex:1 1 150px; min-width:130px; background:var(--soft); border:1.6px solid var(--cyan);
+  border-radius:10px; padding:10px 12px; font-size:15px; position:relative;
+}
+.flow.int .b{border-color:var(--orange)}
+.flow .b .n{display:block; font-size:13px; color:var(--cyan); font-weight:700; margin-bottom:2px}
+.flow.int .b .n{color:var(--orange)}
+.flow .b:not(:last-child)::after{
+  content:"→"; position:absolute; right:-14px; top:50%; transform:translateY(-50%);
+  color:var(--cyan); font-size:15px; font-weight:700;
+}
+.flow.int .b:not(:last-child)::after{color:var(--orange)}
+@media (max-width:620px){
+  .flow{flex-direction:column}
+  .flow .b{flex:none}
+  .flow .b:not(:last-child)::after{content:"↓"; right:auto; left:50%; top:auto; bottom:-15px; transform:translateX(-50%)}
+}
+
+/* 機制三步 */
+.steps{display:grid; gap:14px; grid-template-columns:1fr}
+@media (min-width:820px){ .steps{grid-template-columns:repeat(3,1fr)} }
+.step{background:#0e2f4f; border:1.6px solid var(--pink); border-radius:12px; overflow:hidden}
+.step.amber{border-color:var(--amber)} .step.green{border-color:var(--green)}
+.step .hd{display:flex; align-items:center; gap:10px; padding:10px 12px; background:rgba(244,114,182,.16)}
+.step.amber .hd{background:rgba(251,191,36,.16)} .step.green .hd{background:rgba(52,211,153,.16)}
+.step .num{
+  width:26px; height:26px; border-radius:50%; background:var(--pink); color:#06243c;
+  display:grid; place-items:center; font-weight:700; font-size:15px; flex:none;
+}
+.step.amber .num{background:var(--amber)} .step.green .num{background:var(--green)}
+.step .hd b{font-size:16.5px}
+.minisvg{width:100%; height:auto; display:block; padding:10px 12px 0}
+.step ul{margin:8px 0 14px; padding:0 14px 0 30px}
+.step li{font-size:15px; color:var(--dim); margin:3px 0}
+
+/* 劇本長條 */
+.bars{display:flex; flex-direction:column; gap:12px}
+.bar b{font-size:15.5px; display:block; margin-bottom:5px}
+.bar .track{background:#0e2f4f; border-radius:7px; height:22px; position:relative; overflow:hidden}
+.bar .fill{height:100%; border-radius:7px; background:var(--green); width:0; animation:grow 1.1s ease-out forwards}
+.bar.amber .fill{background:var(--amber)} .bar.pink .fill{background:var(--pink)}
+@keyframes grow{ to{ width:var(--w) } }
+.bar .meta{display:flex; justify-content:space-between; gap:10px; margin-top:4px; font-size:14px; color:var(--mute)}
+.bar .val{font-weight:700}
+.bar .val.green{color:var(--green)} .bar .val.amber{color:var(--amber)} .bar .val.pink{color:var(--pink)}
+.scale{display:flex; justify-content:space-between; font-size:12.5px; color:#6f92b3; margin-top:2px}
+
+/* 最新一報 */
+.latest{display:grid; gap:16px; grid-template-columns:1fr}
+@media (min-width:900px){ .latest{grid-template-columns:1fr 1fr} }
+.latest h3{margin:0 0 8px; font-size:17px}
+.latest .p h3{color:var(--cyan)} .latest .i h3{color:var(--orange)}
+.latest ul{margin:0; padding-left:20px}
+.latest li{font-size:15.5px; color:var(--dim); margin:5px 0}
+.warn{
+  margin-top:14px; background:rgba(127,29,29,.32); border:1.4px solid #f87171;
+  border-radius:10px; padding:11px 13px; color:#fecaca; font-size:15px; font-weight:500;
+}
+
+/* 時間線 */
+.tlhead{display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between}
+.tlbtns{display:flex; gap:8px}
+.mini{
+  appearance:none; background:var(--soft); border:1px solid var(--line); color:var(--ink);
+  font:inherit; font-size:13.5px; padding:6px 12px; border-radius:999px; cursor:pointer;
+}
+.mini:hover{background:#16456f}
+.tl{list-style:none; margin:14px 0 0; padding:0 0 0 26px; position:relative}
+.tl::before{content:""; position:absolute; left:9px; top:6px; bottom:6px; width:2px; background:#1e4a76}
+.tl li{position:relative; margin-bottom:10px}
+.tl .dot{
+  position:absolute; left:-26px; top:12px; width:19px; height:19px; border-radius:50%;
+  background:#12395f; border:2.4px solid #38bdf8; color:#d8efff;
+  font-size:11px; font-weight:700; display:grid; place-items:center;
+}
+.tl li.new .dot{background:var(--amber); border-color:var(--amber); color:#06243c}
+details{background:var(--soft); border:1px solid var(--line); border-radius:11px; overflow:hidden}
+details[open]{border-color:#39a8e0}
+summary{padding:11px 13px; cursor:pointer; list-style:none; display:block}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"＋"; float:right; color:var(--cyan); font-weight:700; margin-left:8px}
+details[open] summary::after{content:"－"}
+.when{color:var(--amber); font-weight:700; font-size:14px}
+.badge{
+  background:rgba(251,191,36,.18); border:1px solid var(--amber); color:#fcd34d;
+  font-size:12px; font-weight:700; padding:1px 8px; border-radius:999px; margin-left:8px;
+}
+.ttl{display:block; font-size:16.5px; font-weight:700; margin-top:2px}
+.gist{display:block; font-size:14.5px; color:var(--dim); margin-top:2px}
+details ul{margin:0; padding:0 13px 13px 32px}
+details li{font-size:15px; color:var(--dim); margin:5px 0}
+
+/* 總結 */
+.sum{
+  margin-top:18px; background:linear-gradient(90deg,#0d3a63,#123f5e);
+  border:1px solid #3b82c4; border-left:7px solid var(--cyan);
+  border-radius:var(--r); padding:18px 16px; font-size:clamp(16px,3.6vw,19px);
+  font-weight:700; line-height:1.7;
+}
+footer{margin-top:16px; color:#6f92b3; font-size:13.5px; line-height:1.8}
+.reveal{opacity:0; transform:translateY(14px); transition:opacity .5s ease, transform .5s ease}
+.reveal.on{opacity:1; transform:none}
+
+/* SVG 動畫 */
+.trk{stroke-dasharray:900; stroke-dashoffset:900; animation:draw 18s ease-in-out infinite}
+.t2{animation-delay:1.4s} .t3{animation-delay:2.8s}
+@keyframes draw{0%,4%{stroke-dashoffset:900} 22%,94%{stroke-dashoffset:0} 100%{stroke-dashoffset:900}}
+.hp{transform-box:fill-box; transform-origin:center; animation:hp 4.4s ease-in-out infinite}
+@keyframes hp{0%,100%{transform:scale(.82);opacity:.5} 50%{transform:scale(1.1);opacity:1}}
+.troughg{animation:tg 18s ease-in-out infinite}
+@keyframes tg{0%,34%{transform:translate(0,0);opacity:1} 60%,92%{transform:translate(46px,-40px);opacity:.15} 100%{transform:translate(0,0);opacity:1}}
+.troughg2{animation:tg2 6s ease-in-out infinite}
+@keyframes tg2{0%,25%{transform:translate(0,0);opacity:1} 65%,90%{transform:translate(40px,-28px);opacity:.15} 100%{transform:translate(0,0);opacity:1}}
+.bl{animation:bl 2.6s ease-in-out infinite}
+@keyframes bl{0%,100%{opacity:.35} 50%{opacity:1}}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important; transition:none !important}
+  .reveal{opacity:1; transform:none}
+  .trk{stroke-dashoffset:0 !important}
+  .bar .fill{width:var(--w) !important}
+}
+</style>
+</head>
+<body>
+<div class="topbar"></div>
+<div class="wrap">
+<header>
+  <h1>2613 白海豚<br><em>17 篇文章看預測怎麼一路翻轉</em></h1>
+  <p class="lede">整理自 PTT 大氣板 TY_Research｜7/27 15:14 → 8/3 11:20 共 17 篇討論串</p>
+  <p style="margin:12px 0 0"><a class="mini" style="text-decoration:none;display:inline-block"
+     href="infographic.html">改看單張動態資訊圖 →</a></p>
+</header>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <radialGradient id="rg2" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#38bdf8" stop-opacity="0.42"/>
+    <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+  </radialGradient>
+  <marker id="mg2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#34d399"/></marker>
+</defs></svg>
+
+<section class="reveal">
+  <h2>三句話看懂</h2>
+  <p class="sub">如果只看一段，看這裡就好</p>
+  <div class="keys">
+    <div class="key"><h3>路徑</h3><p>從「可能往日本轉」，一路收斂到「幾乎鎖定從沖繩以北通過」，現在只剩抵達時間的快慢差異。</p></div>
+    <div class="key b"><h3>強度</h3><p>爆發增強到巔峰約 85～93 公尺／秒後，歷經四次眼牆置換反覆起落，目前約 51 並持續減弱。</p></div>
+    <div class="key c"><h3>為何西折</h3><p>本州東方高層槽沒能打開北轉通道，反而快速填塞北退；兩側高壓重新連成高壓脊，把它導向西方。</p></div>
+  </div>
+</section>
+
+<section class="reveal">
+  <h2><span class="tag">路徑</span>預測怎麼變</h2>
+  <p class="sub">示意圖，非實際預報路徑</p>
+  <svg class="mapsvg" viewBox="0 0 820 440" preserveAspectRatio="xMidYMid meet" role="img"
+     aria-label="路徑預測示意圖：最早偏日本、過渡期分歧、最終偏西">
+  <defs>
+    <radialGradient id="rg" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f472b6"/></marker>
+    <marker id="mo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#fbbf24"/></marker>
+    <marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#34d399"/></marker>
+  </defs>
+  <rect width="820" height="440" fill="#08203a"/>
+  <g stroke="#14375c" stroke-width="1">
+    <path d="M110,0 V440 M220,0 V440 M330,0 V440 M440,0 V440 M550,0 V440 M660,0 V440 M770,0 V440"/>
+    <path d="M0,70 H820 M0,140 H820 M0,210 H820 M0,280 H820 M0,350 H820"/>
+  </g>
+  <path d="M0,10 L140,36 L120,78 L140,112 L120,148 L130,176 L100,204 L40,260 L0,282 Z"
+        fill="#173a56" stroke="#2f6b95" stroke-width="1.6"/>
+  <path d="M330,132 L392,108 L456,80 L520,40 L558,24 L572,40 L532,62 L474,104 L408,132 L346,152 Z"
+        fill="#173a56" stroke="#2f6b95" stroke-width="1.6"/>
+  <path d="M304,138 L336,132 L342,160 L314,172 L296,155 Z"
+        fill="#173a56" stroke="#2f6b95" stroke-width="1.6"/>
+  <path d="M116,240 L132,249 L134,270 L122,289 L110,274 L108,252 Z"
+        fill="#1d4a68" stroke="#4b93bd" stroke-width="1.8"/>
+  <g fill="#2f6b95">
+    <circle cx="310" cy="194" r="5"/><circle cx="288" cy="208" r="5"/>
+    <circle cx="266" cy="228" r="7"/><circle cx="246" cy="236" r="5"/>
+    <circle cx="214" cy="250" r="5"/><circle cx="186" cy="257" r="4"/><circle cx="170" cy="261" r="4"/>
+  </g>
+  <text x="16" y="196" fill="#6f9dc0" font-size="17">中國東部</text>
+  <text x="396" y="80" fill="#6f9dc0" font-size="17">日本（本州）</text>
+  <text x="92" y="312" fill="#8ed0f0" font-size="18" font-weight="700">台灣</text>
+  <text x="198" y="286" fill="#6f9dc0" font-size="15">琉球群島</text>
+  <text x="268" y="160" fill="#6ee7b7" font-size="16" font-weight="700">預測從沖繩以北通過</text>
+
+  <g class="troughg">
+    <path d="M590,66 L640,126 L690,66" fill="none" stroke="#f472b6" stroke-width="3.5"
+          stroke-dasharray="9 7" stroke-linecap="round"/>
+    <text x="640" y="52" fill="#f9a8d4" font-size="17" font-weight="700" text-anchor="middle">高層槽</text>
+  </g>
+
+  <g><circle class="hp" cx="742" cy="286" r="42" fill="url(#rg)"/>
+     <circle cx="742" cy="286" r="24" fill="#0c3050" stroke="#38bdf8" stroke-width="2.4"/>
+     <text x="742" y="295" fill="#8ee0ff" font-size="25" font-weight="700" text-anchor="middle">H</text>
+     <text x="742" y="330" fill="#8fb3d4" font-size="14" text-anchor="middle">東北側高壓</text></g>
+  <g><circle class="hp" cx="270" cy="176" r="40" fill="url(#rg)"/>
+     <circle cx="270" cy="176" r="22" fill="#0c3050" stroke="#38bdf8" stroke-width="2.4"/>
+     <text x="270" y="184" fill="#8ee0ff" font-size="23" font-weight="700" text-anchor="middle">H</text>
+     <text x="270" y="218" fill="#8fb3d4" font-size="14" text-anchor="middle">西北側高壓</text></g>
+
+  <path class="trk t1" d="M640,386 C580,362 518,334 480,308 C442,280 440,252 444,226 C450,182 472,142 512,104"
+        fill="none" stroke="#f472b6" stroke-width="4.5" marker-end="url(#mp)"/>
+  <path class="trk t2" d="M640,386 C582,364 544,346 520,328 C462,308 422,288 400,274 C360,256 322,240 260,216"
+        fill="none" stroke="#fbbf24" stroke-width="4.5" marker-end="url(#mo)"/>
+  <path class="trk t3" d="M640,386 C582,366 542,350 520,336 C460,314 422,300 400,291 C340,272 280,256 220,251 C182,248 160,249 142,250"
+        fill="none" stroke="#34d399" stroke-width="6" marker-end="url(#mg)"/>
+  <circle cx="640" cy="386" r="6" fill="#fff"/>
+  <text x="654" y="408" fill="#cbe4ff" font-size="15">初始位置</text>
+</svg>
+  <div class="legend">
+    <span><i style="background:#f472b6"></i>最早：可能偏日本方向</span>
+    <span><i style="background:#fbbf24"></i>過渡：72 小時後分歧</span>
+    <span><i style="background:#34d399"></i>最終：先西北、之後偏西</span>
+  </div>
+</section>
+<div class="grid two">
+<section class="reveal" style="margin-top:0"><h2><span class="tag">路徑</span>怎麼收斂</h2><p class="sub">分歧一路縮小</p><div class="flow">
+<div class="b"><span class="n">1</span>可能往日本方向轉</div>
+<div class="b"><span class="n">2</span>72 小時後分兩派</div>
+<div class="b"><span class="n">3</span>實際更偏南、整體西修</div>
+<div class="b"><span class="n">4</span>差異縮小成西折早晚</div>
+<div class="b"><span class="n">5</span>西轉定局，剩速度快慢</div>
+</div></section>
+<section class="reveal" style="margin-top:0"><h2><span style="color:var(--orange)">強度</span>怎麼反覆</h2><p class="sub">四次眼牆置換是關鍵</p><div class="flow int">
+<div class="b"><span class="n">1</span>原估會快速增強</div>
+<div class="b"><span class="n">2</span>實況超預期、強度上修</div>
+<div class="b"><span class="n">3</span>首次眼牆置換、短暫下修</div>
+<div class="b"><span class="n">4</span>換眼後再增強</div>
+<div class="b"><span class="n">5</span>四次置換發生、實際減弱</div>
+</div></section>
+</div>
+<section class="reveal"><h2>為什麼會西折：<span class="tag">高壓補回來了</span></h2><p class="sub">H＝高壓　槽＝高層槽</p><div class="steps">
+<div class="step"><div class="hd"><span class="num">1</span><b>原本可能</b></div><svg viewBox="0 0 240 130" class="minisvg" role="img" aria-label="高層槽可能打開北轉通道">
+  <rect width="240" height="130" fill="#08203a" rx="8"/>
+  <path d="M40,26 L120,86 L200,26" fill="none" stroke="#f472b6" stroke-width="3.5"
+        stroke-dasharray="8 6" stroke-linecap="round"/>
+  <text x="120" y="20" fill="#f9a8d4" font-size="16" font-weight="700" text-anchor="middle">槽</text>
+  <path d="M120,116 L120,94" stroke="#34d399" stroke-width="3.5" marker-end="url(#mg)"/>
+  <text x="130" y="108" fill="#6ee7b7" font-size="13">北轉通道？</text>
+  <circle cx="120" cy="122" r="6" fill="#e8f7ff"/>
+</svg><ul>
+<li>本州東方有高層槽</li>
+<li>若夠深、夠久，可能打開北轉通道</li>
+<li>→ 白海豚往日本方向</li>
+</ul></div>
+<div class="step amber"><div class="hd"><span class="num">2</span><b>後來發生</b></div><svg viewBox="0 0 240 130" class="minisvg" role="img" aria-label="高層槽填塞北退，只造成短暫減速">
+  <rect width="240" height="130" fill="#08203a" rx="8"/>
+  <g class="troughg2">
+    <path d="M36,30 L110,88 L184,30" fill="none" stroke="#f472b6" stroke-width="3.5"
+          stroke-dasharray="8 6" stroke-linecap="round"/>
+    <text x="110" y="24" fill="#f9a8d4" font-size="16" font-weight="700" text-anchor="middle">槽</text>
+  </g>
+  <path d="M140,58 L196,24" stroke="#fbbf24" stroke-width="3" stroke-dasharray="6 5"
+        marker-end="url(#mo)" class="bl"/>
+  <text x="120" y="106" fill="#fcd34d" font-size="13" text-anchor="middle">只是短暫減速</text>
+  <circle cx="86" cy="120" r="6" fill="#e8f7ff"/>
+  <path d="M96,120 L140,120" stroke="#cbe4ff" stroke-width="3"/>
+</svg><ul>
+<li>高層槽快速填塞、北退</li>
+<li>只造成約 48～72 小時的短暫減速</li>
+<li>沒能真的把它拉向北方</li>
+</ul></div>
+<div class="step green"><div class="hd"><span class="num">3</span><b>最新共識</b></div><svg viewBox="0 0 240 130" class="minisvg" role="img" aria-label="兩側高壓重建，導引轉為偏西">
+  <rect width="240" height="130" fill="#08203a" rx="8"/>
+  <circle class="hp" cx="62" cy="40" r="30" fill="url(#rg2)"/>
+  <circle cx="62" cy="40" r="19" fill="#0c3050" stroke="#38bdf8" stroke-width="2.2"/>
+  <text x="62" y="47" fill="#8ee0ff" font-size="19" font-weight="700" text-anchor="middle">H</text>
+  <circle class="hp" cx="180" cy="36" r="30" fill="url(#rg2)"/>
+  <circle cx="180" cy="36" r="19" fill="#0c3050" stroke="#38bdf8" stroke-width="2.2"/>
+  <text x="180" y="43" fill="#8ee0ff" font-size="19" font-weight="700" text-anchor="middle">H</text>
+  <path d="M82,38 L160,36" stroke="#38bdf8" stroke-width="3" stroke-dasharray="7 5" class="bl"/>
+  <text x="120" y="82" fill="#9fd8f7" font-size="13" text-anchor="middle">高壓脊（約 35N）</text>
+  <path d="M198,110 L46,110" stroke="#34d399" stroke-width="4.5" marker-end="url(#mg2)"/>
+  <circle cx="204" cy="110" r="6" fill="#e8f7ff"/>
+  <text x="120" y="128" fill="#6ee7b7" font-size="14" font-weight="700" text-anchor="middle">偏西</text>
+</svg><ul>
+<li>東北側與西北側高壓重新建立</li>
+<li>約 35N 連成完整的東西向高壓脊</li>
+<li>導引氣流轉為偏西</li>
+</ul></div>
+</div></section>
+<section class="reveal"><h2><span style="color:var(--orange)">後期強度</span>三種劇本</h2><p class="sub">最大風速（公尺／秒）｜巔峰曾預測約 85～93，目前約 51</p><div class="bars">
+<div class="bar"><b>JTWC 正式預報</b><div class="track"><div class="fill" style="--w:44%"></div></div><div class="meta"><span class="val green">約 44</span><span>採用</span></div></div>
+<div class="bar amber"><b>HAFS-A</b><div class="track"><div class="fill" style="--w:51%"></div></div><div class="meta"><span class="val amber">51 以上</span><span>96 小時後內核重組</span></div></div>
+<div class="bar pink"><b>COAMPS-TC</b><div class="track"><div class="fill" style="--w:67%"></div></div><div class="meta"><span class="val pink">約 67</span><span>JTWC 降低權重</span></div></div>
+</div><div class="scale"><span>0</span><span>50</span><span>100</span></div><p class="sub" style="margin:12px 0 0;color:#fcd34d">強度預報信心：前 3 天中等、後 2 天低</p></section>
+<section class="reveal"><h2>最新一報（8/3 11:20）<span class="badge">最新</span></h2><p class="sub">減弱已實際發生</p><div class="latest">
+<div class="p"><h3>路徑：方向高度一致，只差快慢</h3><ul>
+<li>持續向西北西朝琉球群島移動；約 36 小時後朝鮮半島高壓接手</li>
+<li>東西伯利亞高層槽把高壓壓平，導引氣壓梯度減弱</li>
+<li>移速由 36 小時時速約 22 公里，放慢到 120 小時約 15 公里</li>
+<li>96 小時快慢差約 315 公里，120 小時擴大到約 482 公里</li>
+<li>較快 ECMWF、NAVGEM ／ 較慢 GFS、DeepMind</li>
+</ul></div><div class="i"><h3>強度：內核結構正在惡化</h3><ul>
+<li>SSMIS 確認第四次換眼開始，外側環狀結構完全包圍內眼牆</li>
+<li>風眼被雲填塞、雲頂變暖，顯示內核惡化</li>
+<li>過去 24 小時最大風速下降約 13 公尺／秒</li>
+<li>JTWC 下修至約 51 公尺／秒，預測續弱到約 44</li>
+<li>未來 12～36 小時有約 8～10 公尺／秒北風風切，可能延長換眼</li>
+</ul></div></div>
+<div class="warn">※ 中心雖預測從沖繩以北通過，但眼區與風場非常龐大，整個琉球群島仍可能受影響。</div>
+</section>
+<section class="reveal">
+  <div class="tlhead">
+    <div><h2>17 篇文章時間線</h2><p class="sub" style="margin:0">點任一篇展開細節</p></div>
+    <div class="tlbtns">
+      <button class="mini" id="openAll" type="button">全部展開</button>
+      <button class="mini" id="closeAll" type="button">全部收合</button>
+    </div>
+  </div>
+  <ol class="tl">
+<li><span class="dot">1</span><details><summary><span class="when">7/27 15:14</span><span class="ttl">開串：JMA 首報登場</span><span class="gist">遠洋大物，初步印象是後期可能北轉</span></summary><ul>
+<li>JMA 首報登場，白海豚正式進入討論</li>
+<li>初步印象是遠洋大物，可能後期北轉</li>
+<li>討論剛開始，還沒有完整的翻盤原因</li>
+</ul></details></li>
+<li><span class="dot">2</span><details><summary><span class="when">7/27 15:21</span><span class="ttl">首批模式登場</span><span class="gist">JTWC、GFS、ECMWF、AIFS、FNV3 首次集中比較</span></summary><ul>
+<li>五家模式首次集中比較</li>
+<li>遠期分歧很大：有人覺得會往日本轉</li>
+<li>也有人開始注意到高壓可能偏強</li>
+</ul></details></li>
+<li><span class="dot">3</span><details><summary><span class="when">7/27 22:23</span><span class="ttl">72 小時後分兩派</span><span class="gist">一派維持西北，一派提早偏西</span></summary><ul>
+<li>一派維持西北，一派提早偏西</li>
+<li>JTWC 開始承認遠期不確定性高</li>
+<li>強度雖預估會快速增強，但還沒估到後面那麼極端</li>
+</ul></details></li>
+<li><span class="dot">4</span><details><summary><span class="when">7/28 11:36</span><span class="ttl">第一次明顯西修</span><span class="gist">實際位置比多數模式更偏南，整體往西修</span></summary><ul>
+<li>實際位置比多數模式預測更偏南</li>
+<li>後續整體路徑往西修</li>
+<li>討論範圍從日本擴大到琉球、東海甚至中國方向</li>
+</ul></details></li>
+<li><span class="dot">5</span><details><summary><span class="when">7/28 23:55</span><span class="ttl">強度超出預期</span><span class="gist">爆發增強、形成針孔眼</span></summary><ul>
+<li>白海豚爆發增強，形成針孔眼</li>
+<li>6 小時內最大風速增加約 13 公尺／秒</li>
+<li>巔峰預測上修到約 85～93 公尺／秒</li>
+</ul></details></li>
+<li><span class="dot">6</span><details><summary><span class="when">7/29 12:01</span><span class="ttl">第一次眼牆置換</span><span class="gist">增強被打斷，強度暫時下修</span></summary><ul>
+<li>原本持續增強，因眼牆置換而暫時減弱</li>
+<li>路徑分歧改成：不是會不會往西，而是何時開始西折</li>
+</ul></details></li>
+<li><span class="dot">7</span><details><summary><span class="when">7/29 22:52</span><span class="ttl">換眼後再增強</span><span class="gist">新眼形成、結構恢復，強度再上修</span></summary><ul>
+<li>新眼形成，結構恢復</li>
+<li>強度再度上修</li>
+<li>但也開始擔心之後可能再換眼、再波動</li>
+</ul></details></li>
+<li><span class="dot">8</span><details><summary><span class="when">7/30 07:29</span><span class="ttl">高壓重建觀點浮現</span><span class="gist">明確指出 72 小時後新高壓脊建立</span></summary><ul>
+<li>開始明確認為 72 小時後新的副熱帶高壓脊建立</li>
+<li>白海豚將轉為偏西</li>
+<li>這是「高壓補回來」觀點第一次講得較清楚</li>
+</ul></details></li>
+<li><span class="dot">9</span><details><summary><span class="when">7/30 11:29</span><span class="ttl">模式更收斂</span><span class="gist">模式差距縮小，開始靠近台灣附近海域</span></summary><ul>
+<li>延續高壓重建與西轉邏輯</li>
+<li>模式差距進一步縮小</li>
+<li>板上開始有「從可能去日本，變得愈來愈靠近台灣附近海域」的感覺</li>
+</ul></details></li>
+<li><span class="dot">10</span><details><summary><span class="when">7/31 00:38</span><span class="ttl">翻轉原因講清楚</span><span class="gist">高層槽快速填塞、北退，高壓重新連接</span></summary><ul>
+<li>本州東方高層槽快速填塞、北退</li>
+<li>沒能把白海豚拉向北方，槽只造成短暫減速</li>
+<li>之後高壓重新連接，在約 35N 附近形成完整的東西向高壓脊</li>
+<li>白海豚因此在 72 小時後偏西</li>
+</ul></details></li>
+<li><span class="dot">11</span><details><summary><span class="when">7/31 12:54</span><span class="ttl">西折時間再提前</span><span class="gist">由約 72 小時提前到約 60 小時</span></summary><ul>
+<li>西折時間由約 72 小時提前到約 60 小時</li>
+<li>白海豚東北側與西北側高壓同時建立</li>
+<li>主要不確定性縮小成：往西走得有多快</li>
+</ul></details></li>
+<li><span class="dot">12</span><details><summary><span class="when">7/31 23:41</span><span class="ttl">路徑續收斂、強度再分歧</span><span class="gist">第三次眼牆置換，強度重新高度不確定</span></summary><ul>
+<li>路徑｜JTWC 表示整個預報期間路徑一致性很高</li>
+<li>路徑｜72 小時差距約 148 公里，120 小時約 241 公里</li>
+<li>路徑｜北側 NAVGEM、JGSM；南側 ECMWF、GFS</li>
+<li>路徑｜系集平均與超級系集持續南修，愈來愈接近確定性模式共識</li>
+<li>強度｜進入第三次眼牆置換，內眼牆惡化、外側形成更大次眼牆</li>
+<li>強度｜模式差距擴大到約 18 公尺／秒</li>
+<li>強度｜CTCX 增強到約 72；HAFS-A 與 DeepMind 預測 36 小時後快速減弱</li>
+</ul></details></li>
+<li><span class="dot">13</span><details><summary><span class="when">8/1 12:23</span><span class="ttl">西轉已成定局</span><span class="gist">焦點轉向速度與減弱幅度</span></summary><ul>
+<li>路徑｜所有模式均同意白海豚將轉向西行</li>
+<li>路徑｜堪察加半島以南長波槽向極地抬升，高壓脊西側重新向西建立</li>
+<li>路徑｜約 60 小時後，朝鮮半島上空大型高壓脊成為主要導引系統</li>
+<li>路徑｜120 小時沿路徑方向差距增至約 407 公里</li>
+<li>強度｜第三次換眼接近完成，風場明顯擴大，烈風半徑最遠約 370 公里</li>
+<li>強度｜有利增強的環境只剩約 6～12 小時</li>
+<li>強度｜HAFS-A 預測 120 小時降至約 33；COAMPS-TC 維持約 67</li>
+</ul></details></li>
+<li><span class="dot">14</span><details><summary><span class="when">8/2 01:02</span><span class="ttl">換眼完成，進入減弱階段</span><span class="gist">形成直徑約 93 公里的大型清晰風眼</span></summary><ul>
+<li>強度｜完成最新一輪眼牆置換，形成直徑約 93 公里的大型清晰風眼</li>
+<li>強度｜新眼牆短期可能收縮，數小時內仍可能輕微再增強</li>
+<li>強度｜但 JTWC 預期不會顯著恢復到先前巔峰強度</li>
+<li>強度｜約 36 小時後風切增至約 8～10 公尺／秒，熱含量降至 50～75 kJ/cm²</li>
+<li>強度｜+60 小時前逐漸減弱，+72～120 小時加速減弱</li>
+<li>路徑｜東北側高壓脊西南延伸持續增強</li>
+<li>路徑｜約 36～48 小時後由朝鮮半島附近第二個高壓脊接手導引</li>
+</ul></details></li>
+<li><span class="dot">15</span><details><summary><span class="when">8/2 11:34</span><span class="ttl">第四次換眼可能開始</span><span class="gist">持續減弱已是 JTWC 明確主線</span></summary><ul>
+<li>強度｜維持甜甜圈形態，風眼約 56 公里，外側雲帶已包圍主眼牆約 70%</li>
+<li>強度｜JTWC 認為可能準備進行第四次眼牆置換循環</li>
+<li>強度｜北半圓風圈較大，可能與持續偏南的中層風切有關</li>
+<li>強度｜進入較低海洋熱含量區，無法再支撐目前強度</li>
+<li>強度｜COAMPS-TC 回升到約 69 遭 JTWC 否定；HAFS-A 最快，120 小時約 39</li>
+<li>路徑｜以時速約 24～26 公里向西北西移動</li>
+<li>路徑｜約 96 小時後西伯利亞東部低壓侵蝕高壓脊，減速到時速約 19 公里</li>
+<li>路徑｜快慢差距由 72 小時 176 公里擴大到 120 小時 537 公里</li>
+</ul></details></li>
+<li><span class="dot">16</span><details><summary><span class="when">8/3 01:06</span><span class="ttl">換眼中段，鎖定沖繩以北</span><span class="gist">路徑幾乎鎖定，只剩抵達時間差異</span></summary><ul>
+<li>強度｜第四次眼牆置換進入中段，護城河已幾乎環繞內眼牆</li>
+<li>強度｜深厚對流開始崩解，雲系變得較稀疏</li>
+<li>強度｜這次換眼預期比前三次更久，並使白海豚明顯減弱</li>
+<li>強度｜約 12 小時後起，海洋熱含量降到 50～75 kJ/cm²</li>
+<li>強度｜信心因換眼波動調降為「低」</li>
+<li>路徑｜除日本 GSM 外，傳統模式都預測從沖繩以北通過</li>
+<li>路徑｜AI 模式除一個實驗性版本外亦同，JTWC 維持高信心</li>
+<li>路徑｜第 5 天快慢差約 500 公里，ECMWF 系集最快、GFS 最慢</li>
+</ul></details></li>
+<li class="new"><span class="dot">17</span><details open><summary><span class="when">8/3 11:20</span><span class="badge">最新</span><span class="ttl">減弱已實際發生</span><span class="gist">後期出現再增強的少數解，JTWC 未採用</span></summary><ul>
+<li>強度｜SSMIS 微波影像確認第四次眼牆置換已正式開始</li>
+<li>強度｜風眼被雲填塞、雲頂變暖，顯示內核結構正在惡化</li>
+<li>強度｜過去 24 小時最大風速下降約 13 公尺／秒</li>
+<li>強度｜JTWC 下修至約 51，並預測持續減弱至約 44</li>
+<li>強度｜未來 12～36 小時有約 8～10 公尺／秒北風垂直風切，可能延長換眼</li>
+<li>強度｜36 小時後雖進入 30～31°C 暖海域，但沿途熱含量偏低，限制再增強</li>
+<li>路徑｜約 36 小時後由朝鮮半島上空高壓接手導引</li>
+<li>路徑｜移速由 36 小時時速約 22 公里，放慢至 120 小時約 15 公里</li>
+<li>路徑｜96 小時快慢差約 315 公里，120 小時擴大至約 482 公里</li>
+<li>路徑｜較快 ECMWF、NAVGEM；較慢 GFS、DeepMind</li>
+</ul></details></li>
+</ol></section>
+<div class="sum reveal">
+  第四次眼牆置換造成的減弱已實際發生，路徑則仍高度確定；<br>
+  新變數是換眼能否完成，以及後期會維持、續弱還是重組小內核。
+</div>
+<footer>
+  ※ 本頁整理自 PTT 網友討論串，屬討論性質，非官方預報；實際請以中央氣象署發布為準。<br>
+  單位換算：1 節 ≈ 0.51 公尺／秒；1 海里 ≈ 1.85 公里，數值均四捨五入。
+</footer>
+</div>
+
+<script>
+(function(){
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target); } });
+  }, {rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  var ds = document.querySelectorAll('.tl details');
+  document.getElementById('openAll').addEventListener('click', function(){
+    ds.forEach(function(d){ d.open = true; });
+  });
+  document.getElementById('closeAll').addEventListener('click', function(){
+    ds.forEach(function(d){ d.open = false; });
+  });
+})();
+</script>
+</body>
+</html>
