@@ -18,13 +18,13 @@
 </defs>
 <style>
 text{ font-kerning:normal; }
-.tl-item{ opacity:.42; animation:tlOn 72s linear infinite; }
-.tl-hl{ opacity:0; animation:hlOn 72s linear infinite; }
-.tl-halo{ opacity:0; animation:haloOn 72s linear infinite; }
-@keyframes tlOn{ 0%{opacity:.42} 0.6%{opacity:1} 5%{opacity:1} 5.56%{opacity:.42} 100%{opacity:.42} }
-@keyframes hlOn{ 0%{opacity:0} 0.75%{opacity:1} 5%{opacity:1} 5.56%{opacity:0} 100%{opacity:0} }
-@keyframes haloOn{ 0%{opacity:0;stroke-width:2} 0.5%{opacity:.95;stroke-width:2}
-  2.8%{opacity:.25;stroke-width:9} 5%{opacity:.9;stroke-width:2} 5.56%{opacity:0} 100%{opacity:0} }
+.tl-item{ opacity:.42; animation:tlOn 76s linear infinite; }
+.tl-hl{ opacity:0; animation:hlOn 76s linear infinite; }
+.tl-halo{ opacity:0; animation:haloOn 76s linear infinite; }
+@keyframes tlOn{ 0%{opacity:.42} 0.55%{opacity:1} 4.7%{opacity:1} 5.26%{opacity:.42} 100%{opacity:.42} }
+@keyframes hlOn{ 0%{opacity:0} 0.7%{opacity:1} 4.7%{opacity:1} 5.26%{opacity:0} 100%{opacity:0} }
+@keyframes haloOn{ 0%{opacity:0;stroke-width:2} 0.45%{opacity:.95;stroke-width:2}
+  2.6%{opacity:.25;stroke-width:9} 4.7%{opacity:.9;stroke-width:2} 5.26%{opacity:0} 100%{opacity:0} }
 
 .trk{ fill:none; stroke-linecap:round; stroke-linejoin:round;
   stroke-dasharray:900; stroke-dashoffset:900; animation:draw 21s ease-in-out infinite; }
@@ -86,8 +86,8 @@ text{ font-kerning:normal; }
 <rect width="1400" height="3544" fill="url(#bg)"/>
 <rect x="0" y="0" width="1400" height="6" fill="#38bdf8" opacity="0.85"/>
 <text x="30" y="66" font-size="44" fill="#ffffff" font-weight="700" text-anchor="start">2613 白海豚</text>
-<text x="268" y="66" font-size="34" fill="#7dd3fc" font-weight="700" text-anchor="start">18 篇文章看預測怎麼一路翻轉</text>
-<text x="32" y="104" font-size="21" fill="#8fb3d4" font-weight="400" text-anchor="start">資料整理自 PTT 大氣板 TY_Research｜7/27 15:14 → 8/3 23:30 共 18 篇討論串</text>
+<text x="268" y="66" font-size="34" fill="#7dd3fc" font-weight="700" text-anchor="start">19 篇文章看預測怎麼一路翻轉</text>
+<text x="32" y="104" font-size="21" fill="#8fb3d4" font-weight="400" text-anchor="start">資料整理自 PTT 大氣板 TY_Research｜7/27 15:14 → 8/4 13:16 共 19 篇討論串</text>
 <rect x="1150" y="34" width="222" height="42" rx="21" fill="#0f3557" stroke="#2b6ea3"/>
 <text x="1261" y="62" font-size="20" fill="#9fd8f7" font-weight="500" text-anchor="middle">路徑 ‧ 強度 ‧ 環流</text>
 <rect x="28" y="118" width="1344" height="108" rx="16" fill="#0f3557" stroke="#38bdf8" stroke-width="1.6"/>
@@ -95,21 +95,21 @@ text{ font-kerning:normal; }
 <text x="52" y="150" font-size="23" fill="#ffffff" font-weight="700" text-anchor="start">現在的關鍵問題</text>
 <text x="226" y="150" font-size="17" fill="#9fd8f7" font-weight="500" text-anchor="start">翻轉已成過去式，以下是還沒定案的部分</text>
 <rect x="52" y="164" width="434" height="46" rx="10" fill="#0a2743" stroke="#34d399" stroke-opacity="0.55"/>
-<text x="66" y="194" font-size="20" fill="#34d399" font-weight="700" text-anchor="start">方向</text>
-<text x="114" y="194" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">已確定</text>
-<text x="183" y="194" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">沿高壓南側向西北西，通過琉球群島附近</text>
-<rect x="492" y="164" width="434" height="46" rx="10" fill="#0a2743" stroke="#fbbf24" stroke-opacity="0.55"/>
-<text x="506" y="194" font-size="20" fill="#fbbf24" font-weight="700" text-anchor="start">速度</text>
-<text x="554" y="194" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">最大變數</text>
-<text x="642" y="194" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">高壓遭高層槽削弱後，會放慢多少仍分歧</text>
+<text x="66" y="194" font-size="20" fill="#34d399" font-weight="700" text-anchor="start">短期</text>
+<text x="114" y="194" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">很確定</text>
+<text x="183" y="194" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">72 小時前橫向差距僅約 148 公里</text>
+<rect x="492" y="164" width="434" height="46" rx="10" fill="#0a2743" stroke="#a78bfa" stroke-opacity="0.55"/>
+<text x="506" y="194" font-size="20" fill="#a78bfa" font-weight="700" text-anchor="start">北轉</text>
+<text x="554" y="194" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">新分歧</text>
+<text x="623" y="194" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">第 4～5 天分成早北轉與晚北轉兩派</text>
 <rect x="932" y="164" width="434" height="46" rx="10" fill="#0a2743" stroke="#fb923c" stroke-opacity="0.55"/>
 <text x="946" y="194" font-size="20" fill="#fb923c" font-weight="700" text-anchor="start">強度</text>
-<text x="994" y="194" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">換眼卡關</text>
-<text x="1082" y="194" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">快速減弱暫停，可能大致維持</text>
-<rect x="28" y="240" width="492" height="1736" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
-<text x="52" y="284" font-size="26" fill="#7dd3fc" font-weight="700" text-anchor="start">A｜18 篇文章時間線</text>
-<text x="52" y="314" font-size="18" fill="#7d9fbf" font-weight="400" text-anchor="start">每 4 秒高亮一篇，整輪 72 秒</text>
-<line x1="64" y1="340" x2="64" y2="1930" stroke="#1e4a76" stroke-width="3"/>
+<text x="994" y="194" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">換眼重啟</text>
+<text x="1082" y="194" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">同心雙眼牆，24 小時差距約 45 kt</text>
+<rect x="28" y="240" width="492" height="1830" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
+<text x="52" y="284" font-size="26" fill="#7dd3fc" font-weight="700" text-anchor="start">A｜19 篇文章時間線</text>
+<text x="52" y="314" font-size="18" fill="#7d9fbf" font-weight="400" text-anchor="start">每 4 秒高亮一篇，整輪 76 秒</text>
+<line x1="64" y1="340" x2="64" y2="2024" stroke="#1e4a76" stroke-width="3"/>
 <g class="tl-item" style="animation-delay:0.00s">
 <rect class="tl-hl" style="animation-delay:0.00s" x="34" y="324" width="480" height="84" rx="12" fill="#16456f" stroke="#39a8e0" stroke-width="1.5"/>
 <circle class="tl-halo" style="animation-delay:0.00s" cx="64" cy="348" r="22" fill="none" stroke="#38bdf8"/>
@@ -289,8 +289,18 @@ text{ font-kerning:normal; }
 <text x="96" y="1893" font-size="21.5" fill="#ffffff" font-weight="700" text-anchor="start">換眼卡關，強度改為持平</text>
 <text x="96" y="1914" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">第四次換眼遲遲無法完成，快速減弱暫停</text>
 <text x="96" y="1933" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">變數是後期高壓遭槽削弱後會放慢多少</text>
-<rect x="426" y="1856" width="76" height="26" rx="13" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24"/>
-<text x="464" y="1875" font-size="16" fill="#fcd34d" font-weight="700" text-anchor="middle">最新</text>
+</g>
+<g class="tl-item" style="animation-delay:72.00s">
+<rect class="tl-hl" style="animation-delay:72.00s" x="34" y="1944" width="480" height="84" rx="12" fill="#16456f" stroke="#39a8e0" stroke-width="1.5"/>
+<circle class="tl-halo" style="animation-delay:72.00s" cx="64" cy="1968" r="22" fill="none" stroke="#38bdf8"/>
+<circle cx="64" cy="1968" r="16" fill="#12395f" stroke="#38bdf8" stroke-width="2.5"/>
+<text x="64" y="1974" font-size="18" fill="#d8efff" font-weight="700" text-anchor="middle">19</text>
+<text x="96" y="1961" font-size="19" fill="#fbbf24" font-weight="700" text-anchor="start">8/4 13:16</text>
+<text x="96" y="1983" font-size="21.5" fill="#ffffff" font-weight="700" text-anchor="start">北轉分歧正式浮現</text>
+<text x="96" y="2004" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">72 小時前一致性佳，之後分成早轉／晚轉</text>
+<text x="96" y="2023" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">問題變成何時、在哪裡、角度多大</text>
+<rect x="426" y="1946" width="76" height="26" rx="13" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24"/>
+<text x="464" y="1965" font-size="16" fill="#fcd34d" font-weight="700" text-anchor="middle">最新</text>
 </g>
 <g transform="translate(0,112)">
 <rect x="548" y="128" width="824" height="476" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
@@ -535,103 +545,95 @@ text{ font-kerning:normal; }
 <text x="1242" y="1692" font-size="16" fill="#f9a8d4" font-weight="700" text-anchor="end">慢</text>
 <text x="1013.0" y="1702" font-size="19" fill="#fbbf24" font-weight="700" text-anchor="middle">約 407 公里</text>
 <text x="572" y="1748" font-size="17" fill="#c6dcf0" font-weight="500" text-anchor="start">JTWC 未採用 GFS 的極慢方案，路徑仍靠近多模式平均</text>
-<rect x="548" y="1786" width="824" height="344" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
-<text x="572" y="1824" font-size="25" fill="#7dd3fc" font-weight="700" text-anchor="start">J｜各家模式怎麼看</text>
-<text x="774" y="1824" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">差別在「走到哪」，不在「走哪裡」</text>
-<clipPath id="jclip"><rect x="562" y="1840" width="796" height="196" rx="10"/></clipPath>
-<rect x="562" y="1840" width="796" height="196" rx="10" fill="#08203a" stroke="#1a4066"/>
+<rect x="548" y="1786" width="824" height="344" rx="18" fill="#0c2540" stroke="#a78bfa" stroke-width="2"/>
+<text x="572" y="1824" font-size="25" fill="#c4b5fd" font-weight="700" text-anchor="start">J｜早北轉 vs 晚北轉</text>
+<text x="796" y="1824" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">72 小時前一致，之後才分家</text>
+<clipPath id="jclip"><rect x="562" y="1840" width="796" height="200" rx="10"/></clipPath>
+<rect x="562" y="1840" width="796" height="200" rx="10" fill="#08203a" stroke="#1a4066"/>
 <g clip-path="url(#jclip)">
-<line x1="662" y1="1840" x2="662" y2="2036" stroke="#14375c"/>
-<line x1="762" y1="1840" x2="762" y2="2036" stroke="#14375c"/>
-<line x1="862" y1="1840" x2="862" y2="2036" stroke="#14375c"/>
-<line x1="962" y1="1840" x2="962" y2="2036" stroke="#14375c"/>
-<line x1="1062" y1="1840" x2="1062" y2="2036" stroke="#14375c"/>
-<line x1="1162" y1="1840" x2="1162" y2="2036" stroke="#14375c"/>
-<line x1="1262" y1="1840" x2="1262" y2="2036" stroke="#14375c"/>
-<line x1="562" y1="1888" x2="1358" y2="1888" stroke="#14375c"/>
-<line x1="562" y1="1936" x2="1358" y2="1936" stroke="#14375c"/>
-<line x1="562" y1="1984" x2="1358" y2="1984" stroke="#14375c"/>
-<line x1="562" y1="2032" x2="1358" y2="2032" stroke="#14375c"/>
-<path d="M604,1980 L617,1988 L619,2005 L609,2019 L599,2008 L597,1990 Z" fill="#1d4a68" stroke="#4b93bd" stroke-width="1.6"/>
-<text x="608" y="2034" font-size="16" fill="#8ed0f0" font-weight="700" text-anchor="middle">台灣</text>
-<circle cx="906" cy="1966" r="5" fill="#2f6b95"/>
-<circle cx="874" cy="1974" r="5" fill="#2f6b95"/>
-<circle cx="840" cy="1982" r="7" fill="#2f6b95"/>
-<circle cx="806" cy="1989" r="5" fill="#2f6b95"/>
-<circle cx="772" cy="1995" r="5" fill="#2f6b95"/>
-<circle cx="742" cy="2000" r="4" fill="#2f6b95"/>
-<circle cx="716" cy="2004" r="4" fill="#2f6b95"/>
-<text x="830" y="2022" font-size="17" fill="#6f9dc0" font-weight="500" text-anchor="middle">琉球群島</text>
+<line x1="662" y1="1840" x2="662" y2="2040" stroke="#14375c"/>
+<line x1="762" y1="1840" x2="762" y2="2040" stroke="#14375c"/>
+<line x1="862" y1="1840" x2="862" y2="2040" stroke="#14375c"/>
+<line x1="962" y1="1840" x2="962" y2="2040" stroke="#14375c"/>
+<line x1="1062" y1="1840" x2="1062" y2="2040" stroke="#14375c"/>
+<line x1="1162" y1="1840" x2="1162" y2="2040" stroke="#14375c"/>
+<line x1="1262" y1="1840" x2="1262" y2="2040" stroke="#14375c"/>
+<line x1="562" y1="1890" x2="1358" y2="1890" stroke="#14375c"/>
+<line x1="562" y1="1940" x2="1358" y2="1940" stroke="#14375c"/>
+<line x1="562" y1="1990" x2="1358" y2="1990" stroke="#14375c"/>
+<path d="M604,1986 L617,1994 L619,2011 L609,2025 L599,2014 L597,1996 Z" fill="#1d4a68" stroke="#4b93bd" stroke-width="1.6"/>
+<text x="600" y="2036" font-size="16" fill="#8ed0f0" font-weight="700" text-anchor="middle">台灣</text>
+<circle cx="932" cy="1980" r="5" fill="#2f6b95"/>
+<circle cx="900" cy="1988" r="5" fill="#2f6b95"/>
+<circle cx="866" cy="1996" r="7" fill="#2f6b95"/>
+<circle cx="832" cy="2003" r="5" fill="#2f6b95"/>
+<circle cx="798" cy="2009" r="5" fill="#2f6b95"/>
+<circle cx="768" cy="2014" r="4" fill="#2f6b95"/>
+<circle cx="742" cy="2018" r="4" fill="#2f6b95"/>
+<text x="856" y="2034" font-size="16" fill="#6f9dc0" font-weight="500" text-anchor="middle">琉球群島</text>
 </g>
-<path id="jtrk" d="M1320,1998 C1230,1987 1140,1976 1050,1962 C960,1950 870,1940 790,1932 C755,1928 715,1923 676,1918" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
-<g><circle r="9" fill="#e8f7ff" opacity="0.9"/><animateMotion dur="9s" repeatCount="indefinite"><mpath xlink:href="#jtrk"/></animateMotion></g>
-<circle cx="1320" cy="1998" r="5.5" fill="#cbe4ff"/>
-<text x="1320" y="1985" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">現在</text>
-<circle cx="1210" cy="1985" r="5.5" fill="#cbe4ff"/>
-<text x="1210" y="1972" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">24</text>
-<circle cx="1100" cy="1972" r="5.5" fill="#cbe4ff"/>
-<text x="1100" y="1959" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">48</text>
-<circle cx="990" cy="1958" r="5.5" fill="#cbe4ff"/>
-<text x="990" y="1945" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">72</text>
-<circle cx="880" cy="1943" r="5.5" fill="#cbe4ff"/>
-<text x="880" y="1930" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">96</text>
-<text x="1300" y="2020" font-size="15" fill="#cbe4ff" font-weight="500" text-anchor="middle">白海豚目前位置</text>
-<circle class="hpulse" cx="790" cy="1932" r="18" fill="#f472b6" fill-opacity="0.22"/>
-<circle cx="790" cy="1932" r="8.5" fill="#f472b6" stroke="#08203a" stroke-width="2"/>
-<circle class="hpulse" cx="735" cy="1925" r="18" fill="#fbbf24" fill-opacity="0.22"/>
-<circle cx="735" cy="1925" r="8.5" fill="#fbbf24" stroke="#08203a" stroke-width="2"/>
-<circle class="hpulse" cx="676" cy="1918" r="18" fill="#34d399" fill-opacity="0.22"/>
-<circle cx="676" cy="1918" r="8.5" fill="#34d399" stroke="#08203a" stroke-width="2"/>
-<text x="733" y="1880" font-size="17" fill="#fbbf24" font-weight="700" text-anchor="middle">第 120 小時：三家走到不同位置</text>
-<path d="M676,1932 L676,1958 L790,1958 L790,1946" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5 4"/>
-<text x="733" y="1978" font-size="18" fill="#fbbf24" font-weight="700" text-anchor="middle">約 407 公里</text>
-<circle cx="579" cy="2060" r="7" fill="#34d399"/>
-<text x="594" y="2066" font-size="16.5" fill="#34d399" font-weight="700" text-anchor="start">ECMWF（最快）</text>
-<text x="594" y="2088" font-size="15.5" fill="#a9c9e8" font-weight="500" text-anchor="start">通過琉球時速度穩定</text>
-<circle cx="847" cy="2060" r="7" fill="#fbbf24"/>
-<text x="862" y="2066" font-size="16.5" fill="#fbbf24" font-weight="700" text-anchor="start">多模式平均／JTWC</text>
-<text x="862" y="2088" font-size="15.5" fill="#a9c9e8" font-weight="500" text-anchor="start">官方採用，靠近共識</text>
-<circle cx="1115" cy="2060" r="7" fill="#f472b6"/>
-<text x="1130" y="2066" font-size="16.5" fill="#f472b6" font-weight="700" text-anchor="start">GFS、GEFS（最慢）</text>
-<text x="1130" y="2088" font-size="15.5" fill="#a9c9e8" font-weight="500" text-anchor="start">高壓削弱、陷入鞍形場</text>
-<text x="572" y="2116" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">※ 所有模式方向一致，都從沖繩以北通過；差別只在同一條路徑上前進的快慢。</text>
+<path id="jbase" d="M1320,2006 C1230,1995 1140,1984 1050,1972 C1010,1966 970,1960 940,1956" fill="none" stroke="#38bdf8" stroke-width="5.5" stroke-linecap="round"/>
+<g><circle r="8" fill="#e8f7ff" opacity="0.9"><animateMotion dur="7s" repeatCount="indefinite"><mpath xlink:href="#jbase"/></animateMotion></circle></g>
+<path d="M940,1956 C898,1936 872,1910 866,1892 C862,1880 860,1872 858,1862" fill="none" stroke="#fb923c" stroke-width="4.5" stroke-linecap="round" marker-end="url(#ar-o)"/>
+<text x="886" y="1866" font-size="18" fill="#fdba74" font-weight="700" text-anchor="middle">早北轉</text>
+<path d="M940,1956 C860,1946 780,1938 720,1928 C688,1918 672,1896 668,1870" fill="none" stroke="#a78bfa" stroke-width="4.5" stroke-linecap="round" marker-end="url(#ar-v)"/>
+<text x="650" y="1864" font-size="18" fill="#c4b5fd" font-weight="700" text-anchor="middle">晚北轉</text>
+<circle class="hpulse" cx="940" cy="1956" r="20" fill="#fbbf24" fill-opacity="0.25"/>
+<circle cx="940" cy="1956" r="7" fill="#fbbf24" stroke="#08203a" stroke-width="2"/>
+<path d="M940,1964 L1010,1996" stroke="#fbbf24" stroke-width="1.6" stroke-dasharray="4 4"/>
+<text x="1080" y="2002" font-size="16" fill="#fcd34d" font-weight="700" text-anchor="middle">約 72 小時：開始分家</text>
+<circle cx="1320" cy="2006" r="5" fill="#cbe4ff"/>
+<text x="1320" y="1993" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">現在</text>
+<circle cx="1200" cy="1992" r="5" fill="#cbe4ff"/>
+<text x="1200" y="1979" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">24</text>
+<circle cx="1075" cy="1976" r="5" fill="#cbe4ff"/>
+<text x="1075" y="1963" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="middle">48</text>
+<text x="1300" y="2028" font-size="15" fill="#cbe4ff" font-weight="500" text-anchor="middle">白海豚目前位置</text>
+<text x="1150" y="1880" font-size="16" fill="#7dd3fc" font-weight="700" text-anchor="middle">72 小時前橫向差距僅約 148 公里</text>
+<circle cx="579" cy="2064" r="7" fill="#fb923c"/>
+<text x="594" y="2070" font-size="16.5" fill="#fb923c" font-weight="700" text-anchor="start">早北轉：GFS、GEFS、NAVGEM</text>
+<text x="594" y="2092" font-size="15.5" fill="#a9c9e8" font-weight="500" text-anchor="start">移動較慢，還沒走那麼西就往北彎</text>
+<circle cx="981" cy="2064" r="7" fill="#a78bfa"/>
+<text x="996" y="2070" font-size="16.5" fill="#a78bfa" font-weight="700" text-anchor="start">晚北轉：DeepMind、JTWC 官方</text>
+<text x="996" y="2092" font-size="15.5" fill="#a9c9e8" font-weight="500" text-anchor="start">走得較西才開始北彎，官方較接近這派</text>
+<text x="572" y="2118" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">※ 移動速度直接影響「在多西的位置開始北彎」；問題已不是會不會北轉。</text>
 <rect x="548" y="2146" width="824" height="164" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
-<text x="572" y="2182" font-size="25" fill="#fb923c" font-weight="700" text-anchor="start">G｜強度轉為大致持平</text>
-<text x="802" y="2182" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">最大風速 kt（公尺／秒）</text>
-<text x="1018" y="2182" font-size="18" fill="#7d9fbf" font-weight="500" text-anchor="start">巔峰曾約 165～180 kt</text>
+<text x="572" y="2182" font-size="25" fill="#fb923c" font-weight="700" text-anchor="start">G｜強度：第四次換眼重啟</text>
+<text x="844" y="2182" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">最大風速 kt（公尺／秒）</text>
+<text x="1060" y="2182" font-size="18" fill="#7d9fbf" font-weight="500" text-anchor="start">巔峰曾約 165～180 kt</text>
 <text x="572" y="2214" font-size="18" fill="#cfe4f7" font-weight="700" text-anchor="start">目前實況</text>
 <rect x="740" y="2198" width="420" height="20" rx="6" fill="#0e2f4f"/>
-<rect x="740" y="2198" width="186" height="20" rx="6" fill="#7dd3fc" fill-opacity="0.85"/>
-<text x="936" y="2214" font-size="17" fill="#7dd3fc" font-weight="700" text-anchor="start">約 89 kt（46）</text>
-<text x="1250" y="2214" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">換眼中</text>
-<text x="572" y="2246" font-size="18" fill="#cfe4f7" font-weight="700" text-anchor="start">維持至第 96 小時</text>
+<rect x="740" y="2198" width="207" height="20" rx="6" fill="#7dd3fc" fill-opacity="0.85"/>
+<text x="957" y="2214" font-size="17" fill="#7dd3fc" font-weight="700" text-anchor="start">約 100 kt（51）</text>
+<text x="1256" y="2214" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">同心雙眼牆</text>
+<text x="572" y="2246" font-size="18" fill="#cfe4f7" font-weight="700" text-anchor="start">JTWC 短期預測</text>
 <rect x="740" y="2230" width="420" height="20" rx="6" fill="#0e2f4f"/>
-<rect x="740" y="2230" width="178" height="20" rx="6" fill="#34d399" fill-opacity="0.85"/>
-<text x="928" y="2246" font-size="17" fill="#34d399" font-weight="700" text-anchor="start">約 85 kt（44）</text>
-<text x="1250" y="2246" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">JTWC 預報</text>
-<text x="572" y="2274" font-size="17" fill="#c6dcf0" font-weight="500" text-anchor="start">少數模式預測 12 小時內再增強；若換眼再失敗，減弱可能加快</text>
+<rect x="740" y="2230" width="233" height="20" rx="6" fill="#fbbf24" fill-opacity="0.85"/>
+<text x="983" y="2246" font-size="17" fill="#fbbf24" font-weight="700" text-anchor="start">約 110 kt（57）</text>
+<text x="1256" y="2246" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="start">可能小幅增強</text>
+<text x="572" y="2274" font-size="17" fill="#c6dcf0" font-weight="500" text-anchor="start">24 小時後各模式最大風速差距約 45 kt（23 公尺／秒）</text>
 <text x="572" y="2298" font-size="17" fill="#fcd34d" font-weight="500" text-anchor="start">強度預報信心：整段維持低</text>
 <rect x="28" y="2352" width="1344" height="260" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
-<text x="52" y="2394" font-size="26" fill="#fbbf24" font-weight="700" text-anchor="start">F｜最新一報（8/3 23:30）：換眼卡關，強度改為持平</text>
+<text x="52" y="2394" font-size="26" fill="#fbbf24" font-weight="700" text-anchor="start">F｜最新一報（8/4 13:16）：北轉分歧正式浮現</text>
 <g class="blink">
-<rect x="716" y="2372" width="78" height="30" rx="15" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24"/>
-<text x="755" y="2393" font-size="18" fill="#fcd34d" font-weight="700" text-anchor="middle">最新</text>
+<rect x="672" y="2372" width="78" height="30" rx="15" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24"/>
+<text x="711" y="2393" font-size="18" fill="#fcd34d" font-weight="700" text-anchor="middle">最新</text>
 </g>
 <line x1="712" y1="2410" x2="712" y2="2570" stroke="#1c4a78" stroke-width="1.5"/>
-<text x="52" y="2436" font-size="22" fill="#7dd3fc" font-weight="700" text-anchor="start">路徑：方向確定，變數是會放慢多少</text>
-<text x="52" y="2468" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・12～24 小時內導引轉交朝鮮半島上空第二個高壓</text>
-<text x="52" y="2492" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・之後沿高壓南側繼續向西北西移動</text>
-<text x="52" y="2516" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・72～120 小時一道深厚高層槽從高壓北側通過，將削弱高壓</text>
-<text x="52" y="2540" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・GFS 預測陷入鞍形場並大幅減速，其他模式認為速度穩定</text>
-<text x="52" y="2564" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・JTWC 未採用 GFS 極慢方案；120 小時快慢差約 407 公里</text>
-<text x="736" y="2436" font-size="22" fill="#fb923c" font-weight="700" text-anchor="start">強度：快速減弱暫時停止</text>
-<text x="736" y="2468" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・仍艱難進行第四次換眼；內眼牆北側破裂，外眼牆未變完整</text>
-<text x="736" y="2492" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・乾空氣區持續擴大，幾乎包住整個內眼牆</text>
-<text x="736" y="2516" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・最強深層對流集中在颱風東半側</text>
-<text x="736" y="2540" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・12 小時內可能稍減，之後維持約 85 kt（44）到第 96 小時</text>
-<text x="736" y="2564" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・24 小時後風切降至 6～10 kt（3～5 公尺／秒），減弱主因是換眼</text>
-<rect x="52" y="2562" width="1296" height="34" rx="10" fill="#7f1d1d" fill-opacity="0.32" stroke="#f87171" stroke-width="1.4"/>
-<text x="700.0" y="2585" font-size="19" fill="#fecaca" font-weight="700" text-anchor="middle">※ 風眼與風場維持巨大，不論中心位置如何，整個琉球群島都可能受影響。</text>
+<text x="52" y="2436" font-size="22" fill="#7dd3fc" font-weight="700" text-anchor="start">路徑：短期確定，第 4～5 天分家</text>
+<text x="52" y="2468" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・72 小時前各模式一致性良好，橫向差距約 148 公里</text>
+<text x="52" y="2492" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・JTWC 對短期路徑維持高信心</text>
+<text x="52" y="2516" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・72～120 小時後，各模式對北轉角度出現明顯分歧</text>
+<text x="52" y="2540" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・GFS、GFS 系集與 NAVGEM 移動較慢，預測較早北轉</text>
+<text x="52" y="2564" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・DeepMind 較晚北轉，JTWC 官方預報較接近這一派</text>
+<text x="736" y="2436" font-size="22" fill="#fb923c" font-weight="700" text-anchor="start">強度：第四次換眼似乎重新啟動</text>
+<text x="736" y="2468" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・微波影像顯示內、外兩層同心眼牆與清楚的眼牆間隙</text>
+<text x="736" y="2492" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・目前最大風速約 100 kt（51 公尺／秒）</text>
+<text x="736" y="2516" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・JTWC 預測短期可能增強到約 110 kt（57 公尺／秒）</text>
+<text x="736" y="2540" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・24 小時後各模式最大風速差距約 45 kt（23 公尺／秒）</text>
+<text x="736" y="2564" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・整段強度預報信心維持低</text>
+<rect x="52" y="2562" width="1296" height="34" rx="10" fill="#2e1065" fill-opacity="0.5" stroke="#a78bfa" stroke-width="1.4"/>
+<text x="700.0" y="2585" font-size="19" fill="#ddd6fe" font-weight="700" text-anchor="middle">※ 問題已不是「北轉或不北轉」，而是「何時北轉、在哪裡北轉、角度有多大」。</text>
 <rect x="28" y="2638" width="1344" height="742" rx="18" fill="#0c2540" stroke="#a78bfa" stroke-width="2"/>
 <text x="52" y="2678" font-size="26" fill="#c4b5fd" font-weight="700" text-anchor="start">K｜後期會不會北轉？判讀 SOP</text>
 <text x="432" y="2678" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">不是預測答案，而是該看哪些訊號</text>
@@ -734,11 +736,11 @@ text{ font-kerning:normal; }
 <text x="818" y="3292" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
 <text x="838" y="3292" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">季風環流或 RMT 不明顯時，仍當成確定原因</text>
 <rect x="52" y="3302" width="1296" height="64" rx="12" fill="#0f3557" stroke="#38bdf8" stroke-width="1.5"/>
-<text x="72" y="3330" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">目前階段：週末有北轉可能，但時間、角度與真正成因都還沒收斂。</text>
-<text x="72" y="3354" font-size="17" fill="#9fd8f7" font-weight="500" text-anchor="start">在看到高壓明顯東退、西風槽有效接近、模式持續收斂，以及實際路徑出現穩定偏北分量之前，都不宜視為確定。</text>
+<text x="72" y="3330" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">目前階段：北轉分歧已正式浮現，分成早北轉與晚北轉兩派。</text>
+<text x="72" y="3354" font-size="17" fill="#9fd8f7" font-weight="500" text-anchor="start">移動速度直接影響在多西的位置開始北彎；在模式持續收斂、實際路徑出現穩定偏北分量前，時間與角度都還不宜定論。</text>
 <rect x="28" y="3406" width="1344" height="112" rx="16" fill="url(#footg)" stroke="#3b82c4" stroke-width="1.5"/>
 <rect x="28" y="3406" width="8" height="112" rx="4" fill="#38bdf8"/>
-<text x="700.0" y="3452" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">第四次眼牆置換遲遲無法完成，但快速減弱也暫時停止；</text>
-<text x="700.0" y="3492" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">路徑方向仍確定，主要變數是後期高壓遭槽削弱後會放慢多少。</text>
+<text x="700.0" y="3452" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">短期路徑仍很確定，但第 4～5 天開始出現早北轉與晚北轉兩派；</text>
+<text x="700.0" y="3492" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">移動速度將直接影響白海豚在多西的位置開始往北彎。</text>
 <text x="700.0" y="3532" font-size="17" fill="#7d9fbf" font-weight="400" text-anchor="middle">※ 本圖整理自 PTT 網友討論串，屬討論性質，非官方預報；實際請以中央氣象署發布為準。</text>
 </svg>
