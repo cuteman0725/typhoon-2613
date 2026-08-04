@@ -205,6 +205,47 @@ details li{font-size:15px; color:var(--dim); margin:5px 0}
 .ints.cyan .ia{color:var(--cyan)} .ints.amber .ia{color:var(--amber)}
 .ints.pink .ia{color:var(--pink)} .ints.green .ia{color:var(--green)}
 
+/* 北轉判讀 SOP */
+section.sop{border-color:#a78bfa; box-shadow:0 0 0 1px rgba(167,139,250,.22)}
+.sopcols{display:grid; gap:14px; grid-template-columns:1fr}
+@media (min-width:900px){ .sopcols{grid-template-columns:1fr 1fr} }
+.sopcol{background:#0e2f4f; border:1.8px solid #a78bfa; border-radius:12px; overflow:hidden}
+.sopcol.no{border-color:var(--orange)}
+.sophd{padding:9px 13px; background:rgba(167,139,250,.18)}
+.sopcol.no .sophd{background:rgba(251,146,60,.18)}
+.sophd b{font-size:17.5px; color:#c4b5fd}
+.sopcol.no .sophd b{color:var(--orange)}
+.sopsvg{width:calc(100% - 26px); height:auto; display:block; margin:13px; border-radius:8px; border:1px solid #1a4066}
+.siglist{margin:0; padding:0 14px 0 34px; counter-reset:sg}
+.siglist li{font-size:15.5px; color:var(--dim); margin:7px 0}
+.sumline{
+  margin:12px 13px 14px; padding:9px 11px; background:#123a5e; border-radius:9px;
+  font-size:14px; color:#c4b5fd; font-weight:500; line-height:1.6;
+}
+.sopcol.no .sumline{color:#fcd34d}
+.sopkey{
+  margin-top:16px; background:rgba(46,16,101,.5); border:1.6px solid #a78bfa;
+  border-radius:12px; padding:13px 15px; font-size:16.5px; font-weight:700;
+  color:#ddd6fe; line-height:1.65;
+}
+.scen{margin-top:16px; display:flex; flex-direction:column; gap:12px}
+.sc b{display:block; font-size:16.5px; margin-bottom:8px; color:#c4b5fd}
+.sc.b b{color:var(--orange)}
+.sc .b{border-color:#a78bfa; font-size:14.5px}
+.sc.b .flow .b{border-color:var(--orange)}
+.sc .flow .b:not(:last-child)::after{color:#a78bfa}
+.sc.b .flow .b:not(:last-child)::after{color:var(--orange)}
+.miss{margin-top:16px; background:#0e2f4f; border:1px solid var(--line);
+  border-left:4px solid #f87171; border-radius:10px; padding:12px 14px}
+.miss b{color:#f87171; font-size:16.5px}
+.miss ul{margin:8px 0 0; padding-left:20px; columns:1}
+@media (min-width:820px){ .miss ul{columns:2; column-gap:26px} }
+.miss li{font-size:15px; color:var(--dim); margin:5px 0; break-inside:avoid}
+.sopnow{margin-top:16px; background:#0f3557; border:1.5px solid var(--cyan);
+  border-radius:12px; padding:13px 15px}
+.sopnow b{font-size:16.5px; display:block; line-height:1.6}
+.sopnow p{margin:7px 0 0; font-size:15px; color:#9fd8f7; line-height:1.7}
+
 /* 總結 */
 .sum{
   margin-top:18px; background:linear-gradient(90deg,#0d3a63,#123f5e);
@@ -254,6 +295,12 @@ footer{margin-top:16px; color:#6f92b3; font-size:13.5px; line-height:1.8}
   </radialGradient>
   <marker id="mg2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
     <path d="M0,0 L10,5 L0,10 z" fill="#34d399"/></marker>
+  <marker id="mv2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#a78bfa"/></marker>
+  <marker id="mo2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#fb923c"/></marker>
+  <marker id="mc2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#38bdf8"/></marker>
 </defs></svg>
 
 <section class="reveal">
@@ -762,6 +809,95 @@ footer{margin-top:16px; color:#6f92b3; font-size:13.5px; line-height:1.8}
 <li>路徑｜JTWC 未採用 GFS 極慢方案；120 小時快慢差約 407 公里</li>
 </ul></details></li>
 </ol></section>
+<section class="reveal sop">
+  <h2><span style="color:#c4b5fd">後期會不會北轉？</span>判讀 SOP</h2>
+  <p class="sub">不是預測答案，而是整理出該觀察哪些訊號</p>
+
+  <div class="sopcols">
+    <div class="sopcol yes">
+      <div class="sophd"><b>可能北轉</b></div>
+      <svg viewBox="0 0 320 120" class="sopsvg" role="img" aria-label="高壓東退、西風槽南伸、北側通道打開，路徑向北彎">
+        <rect width="320" height="120" fill="#08203a" rx="8"/>
+        <circle cx="196" cy="34" r="15" fill="#0c3050" stroke="#38bdf8" stroke-width="2"/>
+        <text x="196" y="40" fill="#8ee0ff" font-size="16" font-weight="700" text-anchor="middle">H</text>
+        <path class="bl" d="M216,34 L262,34" stroke="#38bdf8" stroke-width="3" marker-end="url(#mc2)"/>
+        <text x="272" y="39" fill="#9fd8f7" font-size="12" font-weight="700">東退</text>
+        <path d="M64,12 L92,36 L120,12" fill="none" stroke="#a78bfa" stroke-width="2.6"
+              stroke-dasharray="7 5" stroke-linecap="round"/>
+        <path class="bl" d="M92,38 L92,60" stroke="#a78bfa" stroke-width="2.4" marker-end="url(#mv2)"/>
+        <text x="92" y="76" fill="#c4b5fd" font-size="12" font-weight="700" text-anchor="middle">槽南伸</text>
+        <path d="M152,16 L152,56" stroke="#34d399" stroke-width="2" stroke-dasharray="4 4"/>
+        <text x="158" y="14" fill="#6ee7b7" font-size="11" font-weight="700">通道打開</text>
+        <path d="M300,104 C240,100 190,96 168,88 C154,82 148,70 146,58" fill="none"
+              stroke="#a78bfa" stroke-width="3.4" marker-end="url(#mv2)"/>
+      </svg>
+      <ol class="siglist">
+        <li>北方高壓明顯向東退，北側出現通道或弱點</li>
+        <li>西風槽向南伸展並接近，夠深、夠久、不快減弱</li>
+        <li>槽通過後，高壓沒有迅速向西或向南補回</li>
+        <li>傳統、AI 與系集平均收斂到相似的北轉時間與角度</li>
+        <li>實際移動連續數個時次出現偏北分量，不是單次晃動</li>
+      </ol>
+      <p class="sumline">高壓東退 ＋ 槽夠深夠久 ＋ 高壓沒補回 ＋ 模式收斂 ＋ 實際偏北　＝　北轉可信度提高</p>
+    </div>
+
+    <div class="sopcol no">
+      <div class="sophd"><b>可能不北轉／延後</b></div>
+      <svg viewBox="0 0 320 120" class="sopsvg" role="img" aria-label="高壓補回、槽快速北退、通道封閉，路徑維持西北西">
+        <rect width="320" height="120" fill="#08203a" rx="8"/>
+        <circle class="hp" cx="204" cy="34" r="26" fill="url(#rg2)"/>
+        <circle cx="204" cy="34" r="15" fill="#0c3050" stroke="#38bdf8" stroke-width="2"/>
+        <text x="204" y="40" fill="#8ee0ff" font-size="16" font-weight="700" text-anchor="middle">H</text>
+        <path class="bl" d="M184,34 L136,34" stroke="#fb923c" stroke-width="3" marker-end="url(#mo2)"/>
+        <text x="128" y="60" fill="#fcd34d" font-size="12" font-weight="700" text-anchor="middle">高壓補回、通道封閉</text>
+        <g class="troughg2">
+          <path d="M250,14 L272,34 L294,14" fill="none" stroke="#f472b6" stroke-width="2.4"
+                stroke-dasharray="6 5" stroke-linecap="round"/>
+          <text x="272" y="52" fill="#f9a8d4" font-size="12" font-weight="700" text-anchor="middle">槽北退</text>
+        </g>
+        <path d="M304,102 C230,98 140,92 40,84" fill="none" stroke="#fb923c" stroke-width="3.4"
+              marker-end="url(#mo2)"/>
+        <text x="120" y="112" fill="#fcd34d" font-size="12" font-weight="700" text-anchor="middle">維持向西北西</text>
+      </svg>
+      <ol class="siglist">
+        <li>北方高壓脊仍完整，只能沿高壓南側往西走</li>
+        <li>西風槽太弱、太北，或很快填塞減弱並北退</li>
+        <li>槽退走後高壓快速補回，缺口重新被封住</li>
+        <li>模式主要差異仍只有速度，方向都在同一條西行走廊</li>
+        <li>短暫北偏後又回到西北西，沒有穩定趨勢</li>
+      </ol>
+      <p class="sumline">高壓完整 ＋ 槽太弱或快退 ＋ 高壓再補回 ＋ 模式仍在西行走廊 ＋ 路徑沒持續偏北　＝　續行西北西</p>
+    </div>
+  </div>
+
+  <div class="sopkey">真正關鍵不是有沒有槽，而是槽夠不夠深、夠不夠久，以及槽離開後高壓會不會再次補回。</div>
+
+  <div class="scen">
+    <div class="sc a"><b>情境 A｜成功北轉</b>
+      <div class="flow"><div class="b">高壓東退</div><div class="b">西風槽有效接近</div>
+        <div class="b">北側通道維持開啟</div><div class="b">先減速，再逐漸往北彎</div></div></div>
+    <div class="sc b"><b>情境 B｜北轉失敗或延後</b>
+      <div class="flow"><div class="b">西風槽靠近</div><div class="b">但很快減弱、北退</div>
+        <div class="b">高壓重新補回</div><div class="b">只短暫減速，續行西北西</div></div></div>
+  </div>
+
+  <div class="miss">
+    <b>要特別避免的誤判</b>
+    <ul>
+      <li>看到單一模式北轉，就說一定北轉</li>
+      <li>看到高壓東退，就認為北轉機制已完成</li>
+      <li>把短暫減速當成開始北轉</li>
+      <li>把單次 6 小時偏北移動當成正式轉向</li>
+      <li>把同一路徑上的快慢差，誤畫成方向大分歧</li>
+      <li>季風環流或 RMT 作用不明顯時，仍當成確定原因</li>
+    </ul>
+  </div>
+
+  <div class="sopnow">
+    <b>目前階段：週末有北轉可能，但時間、角度與真正成因都還沒收斂。</b>
+    <p>在看到高壓明顯東退、西風槽有效接近、模式持續收斂，以及實際路徑出現穩定偏北分量之前，都不宜把北轉視為已經確定。</p>
+  </div>
+</section>
 <div class="sum reveal">
   第四次眼牆置換遲遲無法完成，但快速減弱也暫時停止，未來幾天可能大致維持；<br>
   路徑方向仍確定，主要變數是後期高壓遭槽削弱後會放慢多少。
