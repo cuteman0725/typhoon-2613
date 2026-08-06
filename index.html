@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>2613 白海豚：22 篇文章看預測怎麼一路翻轉</title>
+<title>2613 白海豚：22 篇＋番外篇看預測怎麼一路翻轉</title>
 <meta name="description" content="整理 PTT 大氣板 TY_Research 關於 2613 白海豚的 22 篇討論，看路徑與強度預測如何一路翻轉。">
-<meta property="og:title" content="2613 白海豚：22 篇文章看預測怎麼一路翻轉">
+<meta property="og:title" content="2613 白海豚：22 篇＋番外篇看預測怎麼一路翻轉">
 <meta property="og:description" content="西北西通過沖繩、再往浙江中部登陸，成為高信心主流；北轉方案進一步退場。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -168,6 +168,9 @@ section.hot{border-color:var(--amber); box-shadow:0 0 0 1px rgba(251,191,36,.25)
   font-size:11px; font-weight:700; display:grid; place-items:center;
 }
 .tl li.new .dot{background:var(--amber); border-color:var(--amber); color:#06243c}
+.tl li.side .dot{background:#a78bfa; border-color:#a78bfa; color:#1e1b4b}
+.tl li.side > details{border-color:#a78bfa; border-style:dashed}
+.badge.sidebadge{background:rgba(167,139,250,.18); border-color:#a78bfa; color:#ddd6fe}
 details{background:var(--soft); border:1px solid var(--line); border-radius:11px; overflow:hidden}
 details[open]{border-color:#39a8e0}
 summary{padding:11px 13px; cursor:pointer; list-style:none; display:block}
@@ -208,6 +211,20 @@ details li{font-size:15px; color:var(--dim); margin:5px 0}
 .ints .ia{font-size:17px; font-weight:700; line-height:1}
 .ints.cyan .ia{color:var(--cyan)} .ints.amber .ia{color:var(--amber)}
 .ints.pink .ia{color:var(--pink)} .ints.green .ia{color:var(--green)}
+
+/* 番外篇：季風環流圈 */
+section.gyre{border-color:#a78bfa; border-style:dashed; box-shadow:0 0 0 1px rgba(167,139,250,.18)}
+.gcols{display:grid; gap:16px; grid-template-columns:1fr}
+@media (min-width:980px){ .gcols{grid-template-columns:minmax(0,1fr) minmax(0,1fr)} }
+.gblocks{display:flex; flex-direction:column; gap:10px}
+.gb{background:#0e2f4f; border:1.4px solid var(--cyan); border-radius:10px; padding:10px 13px}
+.gb.v{border-color:#a78bfa} .gb.a{border-color:var(--amber)}
+.gb b{font-size:16px; color:var(--cyan)}
+.gb.v b{color:#c4b5fd} .gb.a b{color:var(--amber)}
+.gb ul{margin:6px 0 0; padding-left:19px}
+.gb li{font-size:14.5px; color:var(--dim); margin:3px 0}
+.gnote{margin-top:16px; background:rgba(46,16,101,.5); border:1.4px solid #a78bfa;
+  border-radius:11px; padding:12px 14px; font-size:15.5px; font-weight:700; color:#ddd6fe; line-height:1.65}
 
 /* 系集比例 */
 section.conv{border-color:#34d399; box-shadow:0 0 0 1px rgba(52,211,153,.2)}
@@ -310,8 +327,8 @@ footer{margin-top:16px; color:#6f92b3; font-size:13.5px; line-height:1.8}
 <div class="topbar"></div>
 <div class="wrap">
 <header>
-  <h1>2613 白海豚<br><em>22 篇文章看預測怎麼一路翻轉</em></h1>
-  <p class="lede">整理自 PTT 大氣板 TY_Research｜7/27 15:14 → 8/6 00:27 共 22 篇討論串</p>
+  <h1>2613 白海豚<br><em>22 篇＋番外篇看預測怎麼一路翻轉</em></h1>
+  <p class="lede">整理自 PTT 大氣板 TY_Research｜7/27 15:14 → 8/6｜22 篇 JTWC 討論串＋番外篇</p>
   <p style="margin:12px 0 0"><a class="mini" style="text-decoration:none;display:inline-block"
      href="infographic.html">改看單張動態資訊圖 →</a></p>
 </header>
@@ -589,7 +606,7 @@ footer{margin-top:16px; color:#6f92b3; font-size:13.5px; line-height:1.8}
 </section>
 <section class="reveal">
   <div class="tlhead">
-    <div><h2>22 篇文章時間線</h2><p class="sub" style="margin:0">點任一篇展開，可看當時的預測示意圖</p></div>
+    <div><h2>時間線（22 篇＋番外篇）</h2><p class="sub" style="margin:0">點任一篇展開，可看當時的預測示意圖</p></div>
     <div class="tlbtns">
       <button class="mini" id="openAll" type="button">全部展開</button>
       <button class="mini" id="closeAll" type="button">全部收合</button>
@@ -942,7 +959,84 @@ footer{margin-top:16px; color:#6f92b3; font-size:13.5px; line-height:1.8}
 <li>強度｜進入東海後因風切增強與海洋湧升流影響，預計開始快速減弱</li>
 <li>強度｜西南象限有不規則的強—弱—強風帶，風力不會單純隨離中心距離遞減</li>
 </ul></details></li>
+<li id="p23" class="side"><span class="dot">23</span><details open><summary><span class="when">8/6 上午</span><span class="badge sidebadge">補充觀點</span><span class="ttl">番外篇二：季風環流圈觀點</span><span class="gist">板友補充分析，非 JTWC 官方預報</span></summary>
+<div class="snap">
+<svg class="minimap" viewBox="0 0 320 190" preserveAspectRatio="xMidYMid meet" role="img" aria-label="第23篇當時的預測示意圖"><rect width="320" height="190" fill="#08203a" rx="8"/><g stroke="#14375c" stroke-width="1"><path d="M80,0 V190 M160,0 V190 M240,0 V190 M0,48 H320 M0,96 H320 M0,144 H320"/></g><path d="M0,58 L36,66 L30,80 L36,92 L28,104 L32,114 L20,124 L0,140 Z" fill="#173a56" stroke="#2f6b95" stroke-width="1.2"/><path d="M196,64 L226,52 L256,38 L286,18 L304,10 L311,18 L292,29 L263,50 L230,64 L200,74 Z" fill="#173a56" stroke="#2f6b95" stroke-width="1.2"/><path d="M46,126 L54,131 L55,142 L49,151 L43,143 L42,132 Z" fill="#1d4a68" stroke="#4b93bd" stroke-width="1.4"/><text x="48" y="166" fill="#8ed0f0" font-size="11" font-weight="700" text-anchor="middle">台灣</text><text x="252" y="84" fill="#6f9dc0" font-size="11" text-anchor="middle">日本</text><circle cx="162" cy="96" r="3" fill="#2f6b95"/><circle cx="146" cy="101" r="3" fill="#2f6b95"/><circle cx="128" cy="107" r="4" fill="#2f6b95"/><circle cx="110" cy="112" r="3" fill="#2f6b95"/><circle cx="92" cy="117" r="3" fill="#2f6b95"/><circle cx="78" cy="121" r="2.5" fill="#2f6b95"/><text x="120" y="134" fill="#6f9dc0" font-size="11" text-anchor="middle">琉球群島</text><path d="M128,84 C106,85 82,91 64,94" fill="none" stroke="#34d399" stroke-width="3.4" stroke-linecap="round"/><circle cx="86" cy="96" r="46" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-width="1.6" stroke-dasharray="6 5"/><text x="86" y="40" fill="#c4b5fd" font-size="10" font-weight="700" text-anchor="middle">季風環流圈</text><path d="M100,84 C86,90 74,92 58,88 C46,85 38,80 28,74" fill="none" stroke="#34d399" stroke-width="4" stroke-linecap="round"/><path d="M100,84 C88,94 76,102 62,104" fill="none" stroke="#7dd3fc" stroke-width="2.6" stroke-dasharray="5 4" stroke-linecap="round"/><text x="58" y="122" fill="#7dd3fc" font-size="10" font-weight="700" text-anchor="middle">先偏西南西</text><text x="150" y="70" fill="#8fb3d4" font-size="10">暴風圈邊緣更近台灣</text><circle cx="128" cy="84" r="5" fill="#e8f7ff"/><text x="128" y="102" fill="#cbe4ff" font-size="11" text-anchor="middle">當時位置</text><text x="9" y="182" fill="#5b7f9f" font-size="10">示意圖</text></svg>
+<div class="snapinfo">
+<div class="chg nochg"><span class="aft">路徑</span>通過那霸後或先偏西南西</div>
+<div class="ints cyan"><span class="ia">→</span><span>強度</span>補充觀點，尚未證實</div>
+</div></div>
+<ul>
+<li>路徑｜各國 18Z 主觀預報再稍微向台灣靠近</li>
+<li>路徑｜中心仍大致通過琉球後前往浙江南部</li>
+<li>路徑｜但部分模式顯示，通過那霸後可能先短暫偏向西南西，隨後再回到西至西北西</li>
+<li>路徑｜這個小幅南偏，使巨大暴風圈邊緣更接近台灣近岸</li>
+<li>原因｜一部分可能來自白海豚內部結構不穩定造成的中心擺動</li>
+<li>原因｜更大尺度上，可能與鯨魚殘餘、南海低壓共同納入一個大型季風環流圈</li>
+<li>原因｜白海豚會隨環流圈旋轉與中心位置變化，出現西南西至西北西的細微擺動</li>
+<li>原因｜這不是單純的藤原效應，而是颱風被更大型季風低壓環流帶動</li>
+<li>環境｜低緯度強勁西風爆發，使季風槽加深</li>
+<li>環境｜西北太平洋可能至少形成兩個季風環流圈，兩圈大致各自運作、不是互相繞轉</li>
+<li>環境｜西側以白海豚及南海低壓系統為主；東側以昌鴻及後續擾動為主</li>
+<li>環境｜東側環流可能維持到 8 月中旬，成為後續熱帶擾動的重要生成區</li>
+<li>定位｜前期主路徑仍可由副熱帶高壓與北方槽解釋</li>
+<li>定位｜但後期小幅擺動，副熱帶高壓可能已不是唯一主角</li>
+<li>定位｜此觀點屬補充性分析，不能直接視為已完全驗證的定論</li>
+</ul></details></li>
 </ol></section>
+<section class="reveal gyre">
+  <h2>番外篇：<span style="color:#c4b5fd">季風環流圈觀點</span>
+    <span class="badge sidebadge">補充分析，尚未證實</span></h2>
+  <p class="sub">來源：板友卡特蘭大（8/6 上午）｜非 JTWC 官方預報</p>
+
+  <div class="gcols">
+    <svg class="mapsvg" viewBox="0 0 660 260" preserveAspectRatio="xMidYMid meet" role="img"
+         aria-label="西北太平洋兩個季風環流圈示意">
+      <rect width="660" height="260" fill="#08203a"/>
+      <text x="200" y="26" fill="#c4b5fd" font-size="16" font-weight="700" text-anchor="middle">西側季風環流圈</text>
+      <circle class="hp" cx="200" cy="126" r="94" fill="#a78bfa" fill-opacity="0.07"
+              stroke="#a78bfa" stroke-width="2" stroke-dasharray="9 7"/>
+      <path class="bl" d="M128,126 A 72 72 0 0 1 200,54" fill="none" stroke="#a78bfa"
+            stroke-width="2.6" marker-end="url(#mv2)"/>
+      <circle cx="168" cy="114" r="9" fill="#38bdf8" fill-opacity="0.25" stroke="#7dd3fc"/>
+      <text x="184" y="120" fill="#e8f7ff" font-size="16" font-weight="700">白海豚</text>
+      <circle cx="150" cy="184" r="7" fill="#38bdf8" fill-opacity="0.25" stroke="#7dd3fc"/>
+      <text x="164" y="190" fill="#9fd8f7" font-size="14" font-weight="700">南海低壓</text>
+      <circle cx="240" cy="82" r="7" fill="#38bdf8" fill-opacity="0.25" stroke="#7dd3fc"/>
+      <text x="254" y="88" fill="#9fd8f7" font-size="14" font-weight="700">鯨魚殘餘</text>
+
+      <text x="494" y="26" fill="#6ee7b7" font-size="16" font-weight="700" text-anchor="middle">東側季風環流圈</text>
+      <circle class="hp" cx="494" cy="126" r="82" fill="#34d399" fill-opacity="0.06"
+              stroke="#34d399" stroke-width="2" stroke-dasharray="9 7"/>
+      <path class="bl" d="M432,126 A 62 62 0 0 1 494,64" fill="none" stroke="#34d399"
+            stroke-width="2.6" marker-end="url(#mg2)"/>
+      <circle cx="460" cy="106" r="8" fill="#34d399" fill-opacity="0.25" stroke="#6ee7b7"/>
+      <text x="474" y="112" fill="#a7f3d0" font-size="14" font-weight="700">昌鴻</text>
+      <circle cx="478" cy="172" r="8" fill="#34d399" fill-opacity="0.25" stroke="#6ee7b7"/>
+      <text x="492" y="178" fill="#a7f3d0" font-size="14" font-weight="700">後續擾動</text>
+
+      <text x="330" y="238" fill="#8fb3d4" font-size="14" text-anchor="middle">兩個環流圈大致各自運作，不是互相繞轉</text>
+      <text x="330" y="256" fill="#7d9fbf" font-size="13" text-anchor="middle">低緯度西風爆發使季風槽加深；東側環流可能維持到 8 月中旬</text>
+    </svg>
+
+    <div class="gblocks">
+      <div class="gb p"><b>路徑上會看到什麼</b>
+        <ul><li>各國 18Z 主觀預報再稍微向台灣靠近</li>
+          <li>中心仍大致通過琉球後前往浙江南部</li>
+          <li>但通過那霸後可能先短暫偏向西南西，再回到西至西北西</li></ul></div>
+      <div class="gb v"><b>可能的原因</b>
+        <ul><li>一部分可能來自內部結構不穩定造成的中心擺動</li>
+          <li>更大尺度上，可能與鯨魚殘餘、南海低壓同納入季風環流圈並隨其旋轉</li>
+          <li>這不是單純的藤原效應，而是被大型季風低壓環流帶動</li></ul></div>
+      <div class="gb a"><b>與高壓導引的關係</b>
+        <ul><li>前期主路徑仍可由副熱帶高壓與北方槽解釋</li>
+          <li>但後期的小幅擺動，副熱帶高壓可能已不是唯一主角</li>
+          <li>高壓斷裂東退後，可能主要在季風槽的大低壓帶內受帶動</li></ul></div>
+    </div>
+  </div>
+
+  <div class="gnote">※ 這個小幅南偏使巨大暴風圈邊緣更接近台灣近岸；但屬補充性分析，尚未完全驗證，實際請以中央氣象署發布為準。</div>
+</section>
 <section class="reveal sop">
   <h2><span style="color:#c4b5fd">後期會不會北轉？</span>判讀 SOP</h2>
   <p class="sub">不是預測答案，而是整理出該觀察哪些訊號</p>

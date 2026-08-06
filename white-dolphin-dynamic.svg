@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 3604" width="1400" height="3604" preserveAspectRatio="xMidYMid meet" style="max-width:100%;height:auto" font-family="'Noto Sans TC','Microsoft JhengHei','PingFang TC','Heiti TC','Hiragino Sans TC','Source Han Sans TC',sans-serif" role="img" aria-label="2613 白海豚：11 篇文章看預測怎麼一路翻轉">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 4014" width="1400" height="4014" preserveAspectRatio="xMidYMid meet" style="max-width:100%;height:auto" font-family="'Noto Sans TC','Microsoft JhengHei','PingFang TC','Heiti TC','Hiragino Sans TC','Source Han Sans TC',sans-serif" role="img" aria-label="2613 白海豚：11 篇文章看預測怎麼一路翻轉">
 <title>2613 白海豚：11 篇文章看預測怎麼一路翻轉</title>
 <desc>整理 PTT 大氣板 TY_Research 關於 2613 白海豚的 11 篇討論，說明路徑預測與強度預測的演變，以及高壓重建造成西折的機制。</desc>
 <defs>
@@ -18,13 +18,13 @@
 </defs>
 <style>
 text{ font-kerning:normal; }
-.tl-item{ opacity:.42; animation:tlOn 88s linear infinite; }
-.tl-hl{ opacity:0; animation:hlOn 88s linear infinite; }
-.tl-halo{ opacity:0; animation:haloOn 88s linear infinite; }
-@keyframes tlOn{ 0%{opacity:.42} 0.48%{opacity:1} 4.1%{opacity:1} 4.55%{opacity:.42} 100%{opacity:.42} }
-@keyframes hlOn{ 0%{opacity:0} 0.58%{opacity:1} 4.1%{opacity:1} 4.55%{opacity:0} 100%{opacity:0} }
-@keyframes haloOn{ 0%{opacity:0;stroke-width:2} 0.36%{opacity:.95;stroke-width:2}
-  2.2%{opacity:.25;stroke-width:9} 4.1%{opacity:.9;stroke-width:2} 4.55%{opacity:0} 100%{opacity:0} }
+.tl-item{ opacity:.42; animation:tlOn 92s linear infinite; }
+.tl-hl{ opacity:0; animation:hlOn 92s linear infinite; }
+.tl-halo{ opacity:0; animation:haloOn 92s linear infinite; }
+@keyframes tlOn{ 0%{opacity:.42} 0.46%{opacity:1} 3.9%{opacity:1} 4.35%{opacity:.42} 100%{opacity:.42} }
+@keyframes hlOn{ 0%{opacity:0} 0.55%{opacity:1} 3.9%{opacity:1} 4.35%{opacity:0} 100%{opacity:0} }
+@keyframes haloOn{ 0%{opacity:0;stroke-width:2} 0.34%{opacity:.95;stroke-width:2}
+  2.1%{opacity:.25;stroke-width:9} 3.9%{opacity:.9;stroke-width:2} 4.35%{opacity:0} 100%{opacity:0} }
 
 .trk{ fill:none; stroke-linecap:round; stroke-linejoin:round;
   stroke-dasharray:900; stroke-dashoffset:900; animation:draw 21s ease-in-out infinite; }
@@ -85,11 +85,11 @@ a:hover .tl-item{ opacity:1 !important; }
   .tyicon{ opacity:1 !important; animation:none !important; }
 }
 </style>
-<rect width="1400" height="3604" fill="url(#bg)"/>
+<rect width="1400" height="4014" fill="url(#bg)"/>
 <rect x="0" y="0" width="1400" height="6" fill="#38bdf8" opacity="0.85"/>
 <text x="30" y="66" font-size="44" fill="#ffffff" font-weight="700" text-anchor="start">2613 白海豚</text>
-<text x="268" y="66" font-size="34" fill="#7dd3fc" font-weight="700" text-anchor="start">22 篇文章看預測怎麼一路翻轉</text>
-<text x="32" y="104" font-size="21" fill="#8fb3d4" font-weight="400" text-anchor="start">資料整理自 PTT 大氣板 TY_Research｜7/27 15:14 → 8/6 00:27 共 22 篇討論串</text>
+<text x="268" y="66" font-size="34" fill="#7dd3fc" font-weight="700" text-anchor="start">22 篇＋番外篇看預測怎麼一路翻轉</text>
+<text x="32" y="104" font-size="21" fill="#8fb3d4" font-weight="400" text-anchor="start">資料整理自 PTT 大氣板 TY_Research｜7/27 15:14 → 8/6 共 22 篇 JTWC 討論串＋番外篇</text>
 <rect x="1150" y="34" width="222" height="42" rx="21" fill="#0f3557" stroke="#2b6ea3"/>
 <text x="1261" y="62" font-size="20" fill="#9fd8f7" font-weight="500" text-anchor="middle">路徑 ‧ 強度 ‧ 環流</text>
 <rect x="28" y="118" width="1344" height="108" rx="16" fill="#0f3557" stroke="#38bdf8" stroke-width="1.6"/>
@@ -108,11 +108,11 @@ a:hover .tl-item{ opacity:1 !important; }
 <text x="946" y="194" font-size="20" fill="#fb923c" font-weight="700" text-anchor="start">強度</text>
 <text x="994" y="194" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">可能下修</text>
 <text x="1082" y="194" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">SAR 顯示實際風速或低於官方估計</text>
-<rect x="28" y="240" width="492" height="2070" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
-<text x="52" y="284" font-size="26" fill="#7dd3fc" font-weight="700" text-anchor="start">A｜22 篇文章時間線</text>
-<text x="52" y="314" font-size="18" fill="#7d9fbf" font-weight="400" text-anchor="start">每 4 秒高亮一篇，整輪 88 秒</text>
+<rect x="28" y="240" width="492" height="2160" rx="18" fill="#0c2540" stroke="#1c4a78" stroke-width="1.5"/>
+<text x="52" y="284" font-size="26" fill="#7dd3fc" font-weight="700" text-anchor="start">A｜時間線（22 篇＋番外篇）</text>
+<text x="52" y="314" font-size="18" fill="#7d9fbf" font-weight="400" text-anchor="start">每 4 秒高亮一篇，整輪 92 秒</text>
 <text x="286" y="314" font-size="18" fill="#7dd3fc" font-weight="700" text-anchor="start">點任一篇 → 開網頁版看完整內容</text>
-<line x1="64" y1="340" x2="64" y2="2294" stroke="#1e4a76" stroke-width="3"/>
+<line x1="64" y1="340" x2="64" y2="2384" stroke="#1e4a76" stroke-width="3"/>
 <a href="index.html#p1" target="_top">
 <g class="tl-item" style="animation-delay:0.00s">
 <rect x="34" y="324" width="480" height="84" rx="12" fill="transparent" style="cursor:pointer"/>
@@ -399,6 +399,21 @@ a:hover .tl-item{ opacity:1 !important; }
 <text x="96" y="2293" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">約 99% 系集成員位於上海以南</text>
 <rect x="426" y="2216" width="76" height="26" rx="13" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24"/>
 <text x="464" y="2235" font-size="16" fill="#fcd34d" font-weight="700" text-anchor="middle">最新</text>
+</g>
+</a>
+<a href="index.html#p23" target="_top">
+<g class="tl-item" style="animation-delay:88.00s">
+<rect x="34" y="2304" width="480" height="84" rx="12" fill="transparent" style="cursor:pointer"/>
+<rect class="tl-hl" style="animation-delay:88.00s" x="34" y="2304" width="480" height="84" rx="12" fill="#16456f" stroke="#39a8e0" stroke-width="1.5"/>
+<circle class="tl-halo" style="animation-delay:88.00s" cx="64" cy="2328" r="22" fill="none" stroke="#38bdf8"/>
+<circle cx="64" cy="2328" r="16" fill="#12395f" stroke="#38bdf8" stroke-width="2.5"/>
+<text x="64" y="2334" font-size="18" fill="#d8efff" font-weight="700" text-anchor="middle">23</text>
+<text x="96" y="2321" font-size="19" fill="#fbbf24" font-weight="700" text-anchor="start">8/6 上午</text>
+<text x="96" y="2343" font-size="21.5" fill="#ffffff" font-weight="700" text-anchor="start">番外篇二：季風環流圈觀點</text>
+<text x="96" y="2364" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">通過那霸後可能先短暫偏向西南西</text>
+<text x="96" y="2383" font-size="17.5" fill="#a9c9e8" font-weight="400" text-anchor="start">補充性分析，尚未完全驗證</text>
+<rect x="416" y="2306" width="86" height="26" rx="13" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa"/>
+<text x="459" y="2325" font-size="15" fill="#c4b5fd" font-weight="700" text-anchor="middle">補充觀點</text>
 </g>
 </a>
 <g transform="translate(0,112)">
@@ -745,143 +760,184 @@ a:hover .tl-item{ opacity:1 !important; }
 <text x="736" y="2624" font-size="17.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・進入東海後快速減弱，登陸中國東南部後逐漸消散</text>
 <rect x="52" y="2622" width="1296" height="34" rx="10" fill="#7f1d1d" fill-opacity="0.32" stroke="#f87171" stroke-width="1.4"/>
 <text x="700.0" y="2645" font-size="19" fill="#fecaca" font-weight="700" text-anchor="middle">※ 西南象限有不規則的強—弱—強風帶，風力不會單純隨離中心距離遞減。</text>
-<rect x="28" y="2698" width="1344" height="742" rx="18" fill="#0c2540" stroke="#a78bfa" stroke-width="2"/>
-<text x="52" y="2738" font-size="26" fill="#c4b5fd" font-weight="700" text-anchor="start">K｜後期會不會北轉？判讀 SOP</text>
-<text x="432" y="2738" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">不是預測答案，而是該看哪些訊號</text>
-<text x="852" y="2738" font-size="17" fill="#cfe4f7" font-weight="700" text-anchor="start">目前落點：</text>
-<circle cx="942" cy="2732" r="9" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.3"/>
-<text x="942" y="2738" font-size="13" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
-<text x="956" y="2738" font-size="16" fill="#a9c9e8" font-weight="500" text-anchor="start">已出現</text>
-<circle cx="1090" cy="2732" r="9" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.3"/>
-<text x="1090" y="2738" font-size="13" fill="#fbbf24" font-weight="700" text-anchor="middle">△</text>
-<text x="1104" y="2738" font-size="16" fill="#a9c9e8" font-weight="500" text-anchor="start">部分／不明</text>
-<circle cx="1238" cy="2732" r="9" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.3"/>
-<text x="1238" y="2738" font-size="13" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
-<text x="1252" y="2738" font-size="16" fill="#a9c9e8" font-weight="500" text-anchor="start">未出現</text>
-<rect x="52" y="2760" width="638" height="292" rx="12" fill="#0e2f4f" stroke="#a78bfa" stroke-width="1.8"/>
-<rect x="52" y="2760" width="638" height="38" rx="12" fill="#a78bfa" fill-opacity="0.18"/>
-<text x="68" y="2786" font-size="21" fill="#a78bfa" font-weight="700" text-anchor="start">可能北轉</text>
-<rect x="66" y="2808" width="610" height="108" rx="9" fill="#08203a" stroke="#1a4066"/>
-<circle cx="396" cy="2840" r="17" fill="#0c3050" stroke="#38bdf8" stroke-width="2"/>
-<text x="396" y="2847" font-size="19" fill="#8ee0ff" font-weight="700" text-anchor="middle">H</text>
-<path class="blink" d="M420,2840 L482,2840" stroke="#38bdf8" stroke-width="3" marker-end="url(#ar-c)"/>
-<text x="494" y="2845" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="start">東退</text>
-<path d="M216,2820 L262,2852 L308,2820" fill="none" stroke="#a78bfa" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round"/>
-<text x="262" y="2870" font-size="15" fill="#c4b5fd" font-weight="700" text-anchor="middle">槽南伸</text>
-<path class="blink" d="M262,2854 L262,2878" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
-<path d="M338,2828 L338,2870" stroke="#34d399" stroke-width="2" stroke-dasharray="5 5"/>
-<text x="344" y="2826" font-size="14" fill="#6ee7b7" font-weight="700" text-anchor="start">通道打開</text>
-<path d="M586,2896 C466,2890 366,2886 328,2842" fill="none" stroke="#a78bfa" stroke-width="4" marker-end="url(#ar-v)"/>
-<circle cx="76" cy="2933" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
-<text x="76" y="2937" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">1</text>
-<text x="92" y="2938" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">北方高壓明顯向東退，北側出現通道</text>
-<circle cx="664" cy="2933" r="10" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.4"/>
-<text x="664" y="2939" font-size="14" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
-<circle cx="76" cy="2958" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
-<text x="76" y="2962" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">2</text>
-<text x="92" y="2963" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">西風槽向南伸展且夠深、夠久</text>
-<circle cx="664" cy="2958" r="10" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.4"/>
-<text x="664" y="2964" font-size="14" fill="#fbbf24" font-weight="700" text-anchor="middle">△</text>
-<circle cx="76" cy="2983" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
-<text x="76" y="2987" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">3</text>
-<text x="92" y="2988" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">槽通過後高壓沒有迅速補回</text>
-<circle cx="664" cy="2983" r="10" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.4"/>
-<text x="664" y="2989" font-size="14" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
-<circle cx="76" cy="3008" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
-<text x="76" y="3012" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">4</text>
-<text x="92" y="3013" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">模式收斂到相似的北轉時間與角度</text>
-<circle cx="664" cy="3008" r="10" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.4"/>
-<text x="664" y="3014" font-size="14" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
-<circle cx="76" cy="3033" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
-<text x="76" y="3037" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">5</text>
-<text x="92" y="3038" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">實際移動連續出現偏北分量</text>
-<circle cx="664" cy="3033" r="10" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.4"/>
-<text x="664" y="3039" font-size="14" fill="#fbbf24" font-weight="700" text-anchor="middle">△</text>
-<rect x="710" y="2760" width="638" height="292" rx="12" fill="#0e2f4f" stroke="#fb923c" stroke-width="1.8"/>
-<rect x="710" y="2760" width="638" height="38" rx="12" fill="#fb923c" fill-opacity="0.18"/>
-<text x="726" y="2786" font-size="21" fill="#fb923c" font-weight="700" text-anchor="start">可能不北轉／延後</text>
-<rect x="724" y="2808" width="610" height="108" rx="9" fill="#08203a" stroke="#1a4066"/>
-<circle cx="1044" cy="2840" r="17" fill="#0c3050" stroke="#38bdf8" stroke-width="2"/>
-<text x="1044" y="2847" font-size="19" fill="#8ee0ff" font-weight="700" text-anchor="middle">H</text>
-<circle class="hpulse" cx="1044" cy="2840" r="30" fill="url(#hg)"/>
-<path class="blink" d="M1020,2840 L956,2840" stroke="#fb923c" stroke-width="3" marker-end="url(#ar-o)"/>
-<text x="938" y="2868" font-size="15" fill="#fcd34d" font-weight="700" text-anchor="middle">高壓補回、通道封閉</text>
+<rect x="28" y="2698" width="1344" height="384" rx="18" fill="#0c2540" stroke="#a78bfa" stroke-width="2" stroke-dasharray="10 6"/>
+<text x="52" y="2740" font-size="26" fill="#c4b5fd" font-weight="700" text-anchor="start">L｜番外篇：季風環流圈觀點</text>
+<rect x="486" y="2718" width="182" height="30" rx="15" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa"/>
+<text x="577" y="2739" font-size="17" fill="#ddd6fe" font-weight="700" text-anchor="middle">補充分析，尚未證實</text>
+<text x="690" y="2739" font-size="17" fill="#8fb3d4" font-weight="500" text-anchor="start">來源：板友卡特蘭大（8/6 上午），非 JTWC 官方預報</text>
+<rect x="52" y="2764" width="648" height="258" rx="10" fill="#08203a" stroke="#1a4066"/>
+<circle class="hpulse" cx="252" cy="2884" r="94" fill="#a78bfa" fill-opacity="0.07" stroke="#a78bfa" stroke-width="2" stroke-dasharray="9 7"/>
+<text x="252" y="2784" font-size="18" fill="#c4b5fd" font-weight="700" text-anchor="middle">西側季風環流圈</text>
+<circle cx="220" cy="2872" r="9" fill="#38bdf8" fill-opacity="0.25" stroke="#7dd3fc"/>
+<text x="236" y="2878" font-size="18" fill="#e8f7ff" font-weight="700" text-anchor="start">白海豚</text>
+<circle cx="202" cy="2942" r="7" fill="#38bdf8" fill-opacity="0.25" stroke="#7dd3fc"/>
+<text x="218" y="2948" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="start">南海低壓</text>
+<circle cx="292" cy="2840" r="7" fill="#38bdf8" fill-opacity="0.25" stroke="#7dd3fc"/>
+<text x="308" y="2846" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="start">鯨魚殘餘</text>
+<path class="blink" d="M180,2884 A 72 72 0 0 1 252,2812" fill="none" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
+<circle class="hpulse" cx="538" cy="2884" r="82" fill="#34d399" fill-opacity="0.06" stroke="#34d399" stroke-width="2" stroke-dasharray="9 7"/>
+<text x="538" y="2784" font-size="18" fill="#6ee7b7" font-weight="700" text-anchor="middle">東側季風環流圈</text>
+<circle cx="504" cy="2864" r="8" fill="#34d399" fill-opacity="0.25" stroke="#6ee7b7"/>
+<text x="519" y="2870" font-size="15" fill="#a7f3d0" font-weight="700" text-anchor="start">昌鴻</text>
+<circle cx="522" cy="2930" r="8" fill="#34d399" fill-opacity="0.25" stroke="#6ee7b7"/>
+<text x="537" y="2936" font-size="15" fill="#a7f3d0" font-weight="700" text-anchor="start">後續擾動</text>
+<path class="blink" d="M476,2884 A 62 62 0 0 1 538,2822" fill="none" stroke="#34d399" stroke-width="2.6" marker-end="url(#ar-g)"/>
+<text x="376" y="2992" font-size="16" fill="#8fb3d4" font-weight="500" text-anchor="middle">兩個環流圈大致各自運作，不是互相繞轉</text>
+<text x="376" y="3013" font-size="15" fill="#7d9fbf" font-weight="500" text-anchor="middle">低緯度西風爆發使季風槽加深；東側環流可能維持到 8 月中旬</text>
+<rect x="720" y="2764" width="628" height="78" rx="10" fill="#0e2f4f" stroke="#7dd3fc" stroke-width="1.4"/>
+<text x="734" y="2788" font-size="18" fill="#7dd3fc" font-weight="700" text-anchor="start">路徑上會看到什麼</text>
+<text x="734" y="2808" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・各國 18Z 主觀預報再稍微向台灣靠近</text>
+<text x="734" y="2825" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・中心仍大致通過琉球後前往浙江南部</text>
+<text x="734" y="2842" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・但通過那霸後可能先短暫偏向西南西，再回到西至西北西</text>
+<rect x="720" y="2850" width="628" height="78" rx="10" fill="#0e2f4f" stroke="#c4b5fd" stroke-width="1.4"/>
+<text x="734" y="2874" font-size="18" fill="#c4b5fd" font-weight="700" text-anchor="start">可能的原因</text>
+<text x="734" y="2894" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・一部分可能來自內部結構不穩定造成的中心擺動</text>
+<text x="734" y="2911" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・更大尺度上，可能與鯨魚殘餘、南海低壓同納入季風環流圈並隨其旋轉</text>
+<text x="734" y="2928" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・這不是單純的藤原效應，而是被大型季風低壓環流帶動</text>
+<rect x="720" y="2936" width="628" height="78" rx="10" fill="#0e2f4f" stroke="#fbbf24" stroke-width="1.4"/>
+<text x="734" y="2960" font-size="18" fill="#fbbf24" font-weight="700" text-anchor="start">與高壓導引的關係</text>
+<text x="734" y="2980" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・前期主路徑仍可由副熱帶高壓與北方槽解釋</text>
+<text x="734" y="2997" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・但後期的小幅擺動，副熱帶高壓可能已不是唯一主角</text>
+<text x="734" y="3014" font-size="14.5" fill="#c6dcf0" font-weight="500" text-anchor="start">・高壓斷裂東退後，可能主要在季風槽的大低壓帶內受帶動</text>
+<rect x="52" y="3030" width="1296" height="36" rx="10" fill="#2e1065" fill-opacity="0.5" stroke="#a78bfa" stroke-width="1.4"/>
+<text x="700.0" y="3054" font-size="18" fill="#ddd6fe" font-weight="700" text-anchor="middle">※ 這個小幅南偏使巨大暴風圈邊緣更接近台灣近岸；但屬補充性分析，尚未完全驗證，請以中央氣象署發布為準。</text>
+<rect x="28" y="3108" width="1344" height="742" rx="18" fill="#0c2540" stroke="#a78bfa" stroke-width="2"/>
+<text x="52" y="3148" font-size="26" fill="#c4b5fd" font-weight="700" text-anchor="start">K｜後期會不會北轉？判讀 SOP</text>
+<text x="432" y="3148" font-size="18" fill="#8fb3d4" font-weight="500" text-anchor="start">不是預測答案，而是該看哪些訊號</text>
+<text x="852" y="3148" font-size="17" fill="#cfe4f7" font-weight="700" text-anchor="start">目前落點：</text>
+<circle cx="942" cy="3142" r="9" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.3"/>
+<text x="942" y="3148" font-size="13" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
+<text x="956" y="3148" font-size="16" fill="#a9c9e8" font-weight="500" text-anchor="start">已出現</text>
+<circle cx="1090" cy="3142" r="9" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.3"/>
+<text x="1090" y="3148" font-size="13" fill="#fbbf24" font-weight="700" text-anchor="middle">△</text>
+<text x="1104" y="3148" font-size="16" fill="#a9c9e8" font-weight="500" text-anchor="start">部分／不明</text>
+<circle cx="1238" cy="3142" r="9" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.3"/>
+<text x="1238" y="3148" font-size="13" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
+<text x="1252" y="3148" font-size="16" fill="#a9c9e8" font-weight="500" text-anchor="start">未出現</text>
+<rect x="52" y="3170" width="638" height="292" rx="12" fill="#0e2f4f" stroke="#a78bfa" stroke-width="1.8"/>
+<rect x="52" y="3170" width="638" height="38" rx="12" fill="#a78bfa" fill-opacity="0.18"/>
+<text x="68" y="3196" font-size="21" fill="#a78bfa" font-weight="700" text-anchor="start">可能北轉</text>
+<rect x="66" y="3218" width="610" height="108" rx="9" fill="#08203a" stroke="#1a4066"/>
+<circle cx="396" cy="3250" r="17" fill="#0c3050" stroke="#38bdf8" stroke-width="2"/>
+<text x="396" y="3257" font-size="19" fill="#8ee0ff" font-weight="700" text-anchor="middle">H</text>
+<path class="blink" d="M420,3250 L482,3250" stroke="#38bdf8" stroke-width="3" marker-end="url(#ar-c)"/>
+<text x="494" y="3255" font-size="15" fill="#9fd8f7" font-weight="700" text-anchor="start">東退</text>
+<path d="M216,3230 L262,3262 L308,3230" fill="none" stroke="#a78bfa" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round"/>
+<text x="262" y="3280" font-size="15" fill="#c4b5fd" font-weight="700" text-anchor="middle">槽南伸</text>
+<path class="blink" d="M262,3264 L262,3288" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
+<path d="M338,3238 L338,3280" stroke="#34d399" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="344" y="3236" font-size="14" fill="#6ee7b7" font-weight="700" text-anchor="start">通道打開</text>
+<path d="M586,3306 C466,3300 366,3296 328,3252" fill="none" stroke="#a78bfa" stroke-width="4" marker-end="url(#ar-v)"/>
+<circle cx="76" cy="3343" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
+<text x="76" y="3347" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">1</text>
+<text x="92" y="3348" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">北方高壓明顯向東退，北側出現通道</text>
+<circle cx="664" cy="3343" r="10" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.4"/>
+<text x="664" y="3349" font-size="14" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
+<circle cx="76" cy="3368" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
+<text x="76" y="3372" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">2</text>
+<text x="92" y="3373" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">西風槽向南伸展且夠深、夠久</text>
+<circle cx="664" cy="3368" r="10" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.4"/>
+<text x="664" y="3374" font-size="14" fill="#fbbf24" font-weight="700" text-anchor="middle">△</text>
+<circle cx="76" cy="3393" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
+<text x="76" y="3397" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">3</text>
+<text x="92" y="3398" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">槽通過後高壓沒有迅速補回</text>
+<circle cx="664" cy="3393" r="10" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.4"/>
+<text x="664" y="3399" font-size="14" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
+<circle cx="76" cy="3418" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
+<text x="76" y="3422" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">4</text>
+<text x="92" y="3423" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">模式收斂到相似的北轉時間與角度</text>
+<circle cx="664" cy="3418" r="10" fill="#f87171" fill-opacity="0.18" stroke="#f87171" stroke-width="1.4"/>
+<text x="664" y="3424" font-size="14" fill="#f87171" font-weight="700" text-anchor="middle">✕</text>
+<circle cx="76" cy="3443" r="8" fill="#a78bfa" fill-opacity="0.22" stroke="#a78bfa"/>
+<text x="76" y="3447" font-size="12" fill="#a78bfa" font-weight="700" text-anchor="middle">5</text>
+<text x="92" y="3448" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">實際移動連續出現偏北分量</text>
+<circle cx="664" cy="3443" r="10" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.4"/>
+<text x="664" y="3449" font-size="14" fill="#fbbf24" font-weight="700" text-anchor="middle">△</text>
+<rect x="710" y="3170" width="638" height="292" rx="12" fill="#0e2f4f" stroke="#fb923c" stroke-width="1.8"/>
+<rect x="710" y="3170" width="638" height="38" rx="12" fill="#fb923c" fill-opacity="0.18"/>
+<text x="726" y="3196" font-size="21" fill="#fb923c" font-weight="700" text-anchor="start">可能不北轉／延後</text>
+<rect x="724" y="3218" width="610" height="108" rx="9" fill="#08203a" stroke="#1a4066"/>
+<circle cx="1044" cy="3250" r="17" fill="#0c3050" stroke="#38bdf8" stroke-width="2"/>
+<text x="1044" y="3257" font-size="19" fill="#8ee0ff" font-weight="700" text-anchor="middle">H</text>
+<circle class="hpulse" cx="1044" cy="3250" r="30" fill="url(#hg)"/>
+<path class="blink" d="M1020,3250 L956,3250" stroke="#fb923c" stroke-width="3" marker-end="url(#ar-o)"/>
+<text x="938" y="3278" font-size="15" fill="#fcd34d" font-weight="700" text-anchor="middle">高壓補回、通道封閉</text>
 <g class="s2trough">
-<path d="M1124,2822 L1158,2846 L1192,2822" fill="none" stroke="#f472b6" stroke-width="2.6" stroke-dasharray="7 6" stroke-linecap="round"/>
-<text x="1158" y="2866" font-size="15" fill="#f9a8d4" font-weight="700" text-anchor="middle">槽快速北退</text>
+<path d="M1124,3232 L1158,3256 L1192,3232" fill="none" stroke="#f472b6" stroke-width="2.6" stroke-dasharray="7 6" stroke-linecap="round"/>
+<text x="1158" y="3276" font-size="15" fill="#f9a8d4" font-weight="700" text-anchor="middle">槽快速北退</text>
 </g>
-<path d="M1244,2898 C1124,2892 964,2886 820,2878" fill="none" stroke="#fb923c" stroke-width="4" marker-end="url(#ar-o)"/>
-<text x="874" y="2900" font-size="15" fill="#fcd34d" font-weight="700" text-anchor="middle">維持向西北西</text>
-<circle cx="734" cy="2933" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
-<text x="734" y="2937" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">1</text>
-<text x="750" y="2938" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">北方高壓脊仍完整，只能沿南側西行</text>
-<circle cx="1322" cy="2933" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
-<text x="1322" y="2939" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
-<circle cx="734" cy="2958" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
-<text x="734" y="2962" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">2</text>
-<text x="750" y="2963" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">西風槽太弱、太北，或很快減弱北退</text>
-<circle cx="1322" cy="2958" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
-<text x="1322" y="2964" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
-<circle cx="734" cy="2983" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
-<text x="734" y="2987" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">3</text>
-<text x="750" y="2988" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">槽退走後高壓快速補回，缺口封住</text>
-<circle cx="1322" cy="2983" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
-<text x="1322" y="2989" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
-<circle cx="734" cy="3008" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
-<text x="734" y="3012" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">4</text>
-<text x="750" y="3013" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">模式集中在同一條西行走廊</text>
-<circle cx="1322" cy="3008" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
-<text x="1322" y="3014" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
-<circle cx="734" cy="3033" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
-<text x="734" y="3037" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">5</text>
-<text x="750" y="3038" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">短暫北偏後又回到西行，沒有穩定趨勢</text>
-<circle cx="1322" cy="3033" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
-<text x="1322" y="3039" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
-<rect x="52" y="3066" width="1296" height="52" rx="12" fill="#2e1065" fill-opacity="0.5" stroke="#a78bfa" stroke-width="1.6"/>
-<text x="700.0" y="3098" font-size="20" fill="#ddd6fe" font-weight="700" text-anchor="middle">真正關鍵不是有沒有槽，而是槽夠不夠深、夠不夠久，以及槽離開後高壓會不會再次補回。</text>
-<text x="52" y="3162" font-size="19" fill="#a78bfa" font-weight="700" text-anchor="start">情境 A｜成功北轉</text>
-<rect x="316" y="3138" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
-<text x="432.0" y="3164" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">高壓東退</text>
-<path d="M551,3158 L566,3158" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
-<rect x="574" y="3138" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
-<text x="690.0" y="3164" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">西風槽有效接近</text>
-<path d="M809,3158 L824,3158" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
-<rect x="832" y="3138" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
-<text x="948.0" y="3164" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">北側通道維持開啟</text>
-<path d="M1067,3158 L1082,3158" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
-<rect x="1090" y="3138" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
-<text x="1206.0" y="3164" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">先減速，再逐漸往北彎</text>
-<text x="52" y="3224" font-size="19" fill="#fb923c" font-weight="700" text-anchor="start">情境 B｜北轉失敗或延後</text>
-<rect x="316" y="3200" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
-<text x="432.0" y="3226" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">西風槽靠近</text>
-<path d="M551,3220 L566,3220" stroke="#fb923c" stroke-width="2.6" marker-end="url(#ar-o)"/>
-<rect x="574" y="3200" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
-<text x="690.0" y="3226" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">但很快減弱、北退</text>
-<path d="M809,3220 L824,3220" stroke="#fb923c" stroke-width="2.6" marker-end="url(#ar-o)"/>
-<rect x="832" y="3200" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
-<text x="948.0" y="3226" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">高壓重新補回</text>
-<path d="M1067,3220 L1082,3220" stroke="#fb923c" stroke-width="2.6" marker-end="url(#ar-o)"/>
-<rect x="1090" y="3200" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
-<text x="1206.0" y="3226" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">只短暫減速，續行西北西</text>
-<text x="52" y="3274" font-size="20" fill="#f87171" font-weight="700" text-anchor="start">要特別避免的誤判</text>
-<text x="262" y="3302" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
-<text x="282" y="3302" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">看到單一模式北轉就說一定北轉</text>
-<text x="262" y="3327" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
-<text x="282" y="3327" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">看到高壓東退就認為北轉機制已完成</text>
-<text x="262" y="3352" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
-<text x="282" y="3352" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">把短暫減速當成開始北轉</text>
-<text x="818" y="3302" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
-<text x="838" y="3302" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">把單次 6 小時偏北當成正式轉向</text>
-<text x="818" y="3327" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
-<text x="838" y="3327" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">把同一路徑上的快慢差誤畫成方向大分歧</text>
-<text x="818" y="3352" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
-<text x="838" y="3352" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">季風環流或 RMT 不明顯時，仍當成確定原因</text>
-<rect x="52" y="3362" width="1296" height="64" rx="12" fill="#0f3557" stroke="#38bdf8" stroke-width="1.5"/>
-<text x="72" y="3390" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">目前落點：右欄五項訊號幾乎全數成立，北轉方案進一步退場。</text>
-<text x="72" y="3414" font-size="17" fill="#9fd8f7" font-weight="500" text-anchor="start">北方短波槽只造成短暫減速，且減弱北退太快；第 96 小時高壓又重新延伸到日本南部與朝鮮半島，不足以把白海豚大幅拉北。</text>
-<rect x="28" y="3466" width="1344" height="112" rx="16" fill="url(#footg)" stroke="#3b82c4" stroke-width="1.5"/>
-<rect x="28" y="3466" width="8" height="112" rx="4" fill="#38bdf8"/>
-<text x="700.0" y="3512" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">北方槽減弱、北退得太快，第 96 小時高壓又重新補回；</text>
-<text x="700.0" y="3552" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">西北西通過沖繩、再往浙江中部登陸，成為高信心主流。</text>
-<text x="700.0" y="3592" font-size="17" fill="#7d9fbf" font-weight="400" text-anchor="middle">※ 本圖整理自 PTT 網友討論串，屬討論性質，非官方預報；實際請以中央氣象署發布為準。</text>
+<path d="M1244,3308 C1124,3302 964,3296 820,3288" fill="none" stroke="#fb923c" stroke-width="4" marker-end="url(#ar-o)"/>
+<text x="874" y="3310" font-size="15" fill="#fcd34d" font-weight="700" text-anchor="middle">維持向西北西</text>
+<circle cx="734" cy="3343" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
+<text x="734" y="3347" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">1</text>
+<text x="750" y="3348" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">北方高壓脊仍完整，只能沿南側西行</text>
+<circle cx="1322" cy="3343" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
+<text x="1322" y="3349" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
+<circle cx="734" cy="3368" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
+<text x="734" y="3372" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">2</text>
+<text x="750" y="3373" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">西風槽太弱、太北，或很快減弱北退</text>
+<circle cx="1322" cy="3368" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
+<text x="1322" y="3374" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
+<circle cx="734" cy="3393" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
+<text x="734" y="3397" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">3</text>
+<text x="750" y="3398" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">槽退走後高壓快速補回，缺口封住</text>
+<circle cx="1322" cy="3393" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
+<text x="1322" y="3399" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
+<circle cx="734" cy="3418" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
+<text x="734" y="3422" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">4</text>
+<text x="750" y="3423" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">模式集中在同一條西行走廊</text>
+<circle cx="1322" cy="3418" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
+<text x="1322" y="3424" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
+<circle cx="734" cy="3443" r="8" fill="#fb923c" fill-opacity="0.22" stroke="#fb923c"/>
+<text x="734" y="3447" font-size="12" fill="#fb923c" font-weight="700" text-anchor="middle">5</text>
+<text x="750" y="3448" font-size="16.5" fill="#c6dcf0" font-weight="500" text-anchor="start">短暫北偏後又回到西行，沒有穩定趨勢</text>
+<circle cx="1322" cy="3443" r="10" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.4"/>
+<text x="1322" y="3449" font-size="14" fill="#34d399" font-weight="700" text-anchor="middle">✓</text>
+<rect x="52" y="3476" width="1296" height="52" rx="12" fill="#2e1065" fill-opacity="0.5" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="700.0" y="3508" font-size="20" fill="#ddd6fe" font-weight="700" text-anchor="middle">真正關鍵不是有沒有槽，而是槽夠不夠深、夠不夠久，以及槽離開後高壓會不會再次補回。</text>
+<text x="52" y="3572" font-size="19" fill="#a78bfa" font-weight="700" text-anchor="start">情境 A｜成功北轉</text>
+<rect x="316" y="3548" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="432.0" y="3574" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">高壓東退</text>
+<path d="M551,3568 L566,3568" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
+<rect x="574" y="3548" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="690.0" y="3574" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">西風槽有效接近</text>
+<path d="M809,3568 L824,3568" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
+<rect x="832" y="3548" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="948.0" y="3574" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">北側通道維持開啟</text>
+<path d="M1067,3568 L1082,3568" stroke="#a78bfa" stroke-width="2.6" marker-end="url(#ar-v)"/>
+<rect x="1090" y="3548" width="232" height="40" rx="9" fill="#123a5e" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="1206.0" y="3574" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">先減速，再逐漸往北彎</text>
+<text x="52" y="3634" font-size="19" fill="#fb923c" font-weight="700" text-anchor="start">情境 B｜北轉失敗或延後</text>
+<rect x="316" y="3610" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
+<text x="432.0" y="3636" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">西風槽靠近</text>
+<path d="M551,3630 L566,3630" stroke="#fb923c" stroke-width="2.6" marker-end="url(#ar-o)"/>
+<rect x="574" y="3610" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
+<text x="690.0" y="3636" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">但很快減弱、北退</text>
+<path d="M809,3630 L824,3630" stroke="#fb923c" stroke-width="2.6" marker-end="url(#ar-o)"/>
+<rect x="832" y="3610" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
+<text x="948.0" y="3636" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">高壓重新補回</text>
+<path d="M1067,3630 L1082,3630" stroke="#fb923c" stroke-width="2.6" marker-end="url(#ar-o)"/>
+<rect x="1090" y="3610" width="232" height="40" rx="9" fill="#123a5e" stroke="#fb923c" stroke-width="1.5"/>
+<text x="1206.0" y="3636" font-size="16.5" fill="#ffffff" font-weight="500" text-anchor="middle">只短暫減速，續行西北西</text>
+<text x="52" y="3684" font-size="20" fill="#f87171" font-weight="700" text-anchor="start">要特別避免的誤判</text>
+<text x="262" y="3712" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
+<text x="282" y="3712" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">看到單一模式北轉就說一定北轉</text>
+<text x="262" y="3737" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
+<text x="282" y="3737" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">看到高壓東退就認為北轉機制已完成</text>
+<text x="262" y="3762" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
+<text x="282" y="3762" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">把短暫減速當成開始北轉</text>
+<text x="818" y="3712" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
+<text x="838" y="3712" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">把單次 6 小時偏北當成正式轉向</text>
+<text x="818" y="3737" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
+<text x="838" y="3737" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">把同一路徑上的快慢差誤畫成方向大分歧</text>
+<text x="818" y="3762" font-size="15" fill="#f87171" font-weight="700" text-anchor="start">✕</text>
+<text x="838" y="3762" font-size="16" fill="#c6dcf0" font-weight="500" text-anchor="start">季風環流或 RMT 不明顯時，仍當成確定原因</text>
+<rect x="52" y="3772" width="1296" height="64" rx="12" fill="#0f3557" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="72" y="3800" font-size="19" fill="#ffffff" font-weight="700" text-anchor="start">目前落點：右欄五項訊號幾乎全數成立，北轉方案進一步退場。</text>
+<text x="72" y="3824" font-size="17" fill="#9fd8f7" font-weight="500" text-anchor="start">北方短波槽只造成短暫減速，且減弱北退太快；第 96 小時高壓又重新延伸到日本南部與朝鮮半島，不足以把白海豚大幅拉北。</text>
+<rect x="28" y="3876" width="1344" height="112" rx="16" fill="url(#footg)" stroke="#3b82c4" stroke-width="1.5"/>
+<rect x="28" y="3876" width="8" height="112" rx="4" fill="#38bdf8"/>
+<text x="700.0" y="3922" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">北方槽減弱、北退得太快，第 96 小時高壓又重新補回；</text>
+<text x="700.0" y="3962" font-size="27" fill="#ffffff" font-weight="700" text-anchor="middle">西北西通過沖繩、再往浙江中部登陸，成為高信心主流。</text>
+<text x="700.0" y="4002" font-size="17" fill="#7d9fbf" font-weight="400" text-anchor="middle">※ 本圖整理自 PTT 網友討論串，屬討論性質，非官方預報；實際請以中央氣象署發布為準。</text>
 </svg>
